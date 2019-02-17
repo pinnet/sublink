@@ -16,32 +16,25 @@ Http.send();
 var transcript = document.getElementById("transcript");
 var timeStamp = document.getElementById("timeStamp");
 Http.onreadystatechange=(e)=>{
-    console.log(Http.readyState);
+    //console.log(Http.readyState);
     if (Http.readyState == 4) {
         
         var promise1 = new Promise(function(resolve, reject) {
         
-            var lines = Http.responseText.split("/\r\n/");
+            var lines = Http.responseText.split("\r\n");
             var subs = "<select>";
             for (x = 0; x < lines.length; x ++){
-
-                console.log(lines[x].length);
-
-
-                subs += "<option>"+ lines[x] +"</option>";
+                if(lines[x].length != 0) subs += "<option>"+ lines[x] +"</option>";
             }
             resolve(subs);
+        });
 
-          });
-
-          promise1.then(function (subs){
+        promise1.then(function (subs){
             subs += "</select>";
             transcript.innerHTML = subs;
-          });
-       
+        }); 
     }
 }
-
 
 function advanceFrame(){
     tick ++;
