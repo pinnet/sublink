@@ -1,6 +1,17 @@
-{ 
-    "Links" : {
-    "Hello" : "https:/www.google.com",
-    "sex addiction" : "http://imagefap.com",
-    "pegging" : "http://wikipedia.com/pegging" }
-}
+{
+    "Country": "UK",
+    "Search": [
+      "Linus Media Group",
+      "YouTube",
+      "Floatplane",
+      "Our Forum"
+      
+    ],
+    "Link": [
+      "https://linustechtips.com/main/",
+      "http://https://www.youtube.com/user/LinusTechTips",
+      "http://www.floatplane.com",
+      "https://en.wikipedia.org/wiki/IPhone"
+      ],
+    "Version": "0.0a"
+  }

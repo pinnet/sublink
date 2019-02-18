@@ -1,0 +1,3319 @@
+1
+00:00:00,010 --> 00:00:04,710
+all right well I've been sitting at my
+
+2
+00:00:04,710 --> 00:00:08,790
+desk kind of putting off starting this
+
+3
+00:00:08,790 --> 00:00:10,679
+stream for about the last 15 minutes but
+
+4
+00:00:10,679 --> 00:00:13,820
+I guess I'm just gonna get on with it so
+
+5
+00:00:13,820 --> 00:00:16,770
+we kind of talked about this on land
+
+6
+00:00:16,770 --> 00:00:19,039
+show but there's been a little bit of
+
+7
+00:00:19,039 --> 00:00:22,109
+drama and then as of today there's been
+
+8
+00:00:22,109 --> 00:00:26,010
+more drama around Linus Media Group -
+
+9
+00:00:26,010 --> 00:00:28,439
+tech tips me personally whatever sort of
+
+10
+00:00:28,439 --> 00:00:30,510
+whatever entity you want to focus your
+
+11
+00:00:30,510 --> 00:00:35,340
+Ire at running out and copyright striking
+
+12
+00:00:35,340 --> 00:00:39,840
+other content creators and so I typed
+
+13
+00:00:39,840 --> 00:00:42,840
+myself up some notes here to hopefully
+
+14
+00:00:42,840 --> 00:00:47,930
+address this and lay it to rest once and
+
+15
+00:00:47,930 --> 00:00:53,370
+for all so when it comes to I guess the
+
+16
+00:00:53,370 --> 00:00:56,789
+first thing I want to do is sort of ask
+
+17
+00:00:56,789 --> 00:01:00,629
+our community the broader YouTube
+
+18
+00:01:00,629 --> 00:01:04,199
+community in general just people ask
+
+19
+00:01:04,199 --> 00:01:08,880
+them to try to think critically anytime
+
+20
+00:01:08,880 --> 00:01:11,640
+they run up against some kind of
+
+21
+00:01:11,640 --> 00:01:15,390
+accusation like I'm not saying that you
+
+22
+00:01:15,390 --> 00:01:17,070
+know all accusations should be dismissed
+
+23
+00:01:17,070 --> 00:01:18,600
+I'm just also not saying that all
+
+24
+00:01:18,600 --> 00:01:21,810
+accusations should be taken entirely at
+
+25
+00:01:21,810 --> 00:01:25,310
+face value and then just run with so
+
+26
+00:01:25,310 --> 00:01:27,420
+here are some of the questions that I
+
+27
+00:01:27,420 --> 00:01:29,610
+would probably ask myself if I were to
+
+28
+00:01:29,610 --> 00:01:31,710
+encounter any sort of any sort of drama
+
+29
+00:01:31,710 --> 00:01:34,350
+not just YouTube drama who are the
+
+30
+00:01:34,350 --> 00:01:36,570
+stakeholders here what do they
+
+31
+00:01:36,570 --> 00:01:40,590
+individually stand to lose or gain what
+
+32
+00:01:40,590 --> 00:01:43,490
+is the actual solution to this problem
+
+33
+00:01:43,490 --> 00:01:46,920
+who has the power to enact that solution
+
+34
+00:01:46,920 --> 00:01:48,840
+where could I find more information
+
+35
+00:01:48,840 --> 00:01:52,560
+about what's going on
+
+36
+00:01:52,560 --> 00:01:55,560
+is it worth the time that I'm investing
+
+37
+00:01:55,560 --> 00:01:57,840
+to find that information in the case of
+
+38
+00:01:57,840 --> 00:01:59,189
+the particular thing that's going on
+
+39
+00:01:59,189 --> 00:02:02,899
+where people are receiving content ID
+
+40
+00:02:02,899 --> 00:02:05,759
+notifications not to be confused with a
+
+41
+00:02:05,759 --> 00:02:07,500
+copyright strike I'll talk about that
+
+42
+00:02:07,500 --> 00:02:09,289
+later
+
+43
+00:02:09,289 --> 00:02:11,670
+but in the case of people receiving
+
+44
+00:02:11,670 --> 00:02:13,450
+these Content ID notification
+
+45
+00:02:13,450 --> 00:02:15,209
+has anyone have these people actually
+
+46
+00:02:15,209 --> 00:02:17,920
+contacted - Media Group about it
+
+47
+00:02:17,920 --> 00:02:20,530
+directly we actually have a contact us
+
+48
+00:02:20,530 --> 00:02:22,510
+email on our corporate website we also
+
+49
+00:02:22,510 --> 00:02:24,760
+have a contact us email for a Linus tech tips
+
+50
+00:02:24,760 --> 00:02:26,650
+specifically on our YouTube channel that
+
+51
+00:02:26,650 --> 00:02:28,750
+stuff does get monitored on business
+
+52
+00:02:28,750 --> 00:02:30,340
+days mind you like this is my long
+
+53
+00:02:30,340 --> 00:02:32,349
+weekend it's family day here in British
+
+54
+00:02:32,349 --> 00:02:35,650
+Columbia but I'm dealing with this
+
+55
+00:02:35,650 --> 00:02:37,330
+instead of doing what I would really
+
+56
+00:02:37,330 --> 00:02:39,760
+much rather be doing um here are some
+
+57
+00:02:39,760 --> 00:02:41,170
+here are some other questions we can ask
+
+58
+00:02:41,170 --> 00:02:43,150
+ourselves whenever we encounter drama
+
+59
+00:02:43,150 --> 00:02:45,819
+what else is already posted in the
+
+60
+00:02:45,819 --> 00:02:49,269
+comments on the video is there something
+
+61
+00:02:49,269 --> 00:02:50,799
+with a ton of upvotes that sort of
+
+62
+00:02:50,799 --> 00:02:52,870
+answers my question am I being
+
+63
+00:02:52,870 --> 00:02:55,480
+manipulated to join a crusade is the is
+
+64
+00:02:55,480 --> 00:02:57,310
+it based on ignorance or is there some
+
+65
+00:02:57,310 --> 00:03:00,519
+kind of agenda so those are all the just
+
+66
+00:03:00,519 --> 00:03:02,380
+general questions that I'd really like
+
+67
+00:03:02,380 --> 00:03:04,480
+people to ask themselves whenever they
+
+68
+00:03:04,480 --> 00:03:07,480
+are sort of called to join a cause with
+
+69
+00:03:07,480 --> 00:03:08,950
+the most important ones I think being
+
+70
+00:03:08,950 --> 00:03:11,170
+who are the stakeholders what do they
+
+71
+00:03:11,170 --> 00:03:13,569
+stand to lose and gain what is the
+
+72
+00:03:13,569 --> 00:03:16,000
+actual solution and what could or has
+
+73
+00:03:16,000 --> 00:03:18,400
+already been done about it and then for
+
+74
+00:03:18,400 --> 00:03:20,590
+for myself personally this has been
+
+75
+00:03:20,590 --> 00:03:24,790
+there's been kind of frustrating
+
+76
+00:03:24,790 --> 00:03:29,319
+offensive hurtful I'm you know there's a
+
+77
+00:03:29,319 --> 00:03:30,579
+bunch of different words for it because
+
+78
+00:03:30,579 --> 00:03:32,200
+the the questions that I'd like you guys
+
+79
+00:03:32,200 --> 00:03:35,079
+to ask yourselves about me and and my
+
+80
+00:03:35,079 --> 00:03:37,870
+company specifically is is Linus Media
+
+81
+00:03:37,870 --> 00:03:41,260
+Group some kind of monster that's not
+
+82
+00:03:41,260 --> 00:03:43,959
+still run by real people who give a
+
+83
+00:03:43,959 --> 00:03:47,410
+as opposed to you know some nameless
+
+84
+00:03:47,410 --> 00:03:49,299
+faceless corporation like yeah we're
+
+85
+00:03:49,299 --> 00:03:52,120
+we're on the bigger side especially of
+
+86
+00:03:52,120 --> 00:03:53,920
+tech YouTube channels but that doesn't
+
+87
+00:03:53,920 --> 00:03:56,530
+mean that like we've worked hard to get
+
+88
+00:03:56,530 --> 00:03:59,470
+here it's not like it we got there by
+
+89
+00:03:59,470 --> 00:04:01,299
+being you know jerks or anything we
+
+90
+00:04:01,299 --> 00:04:03,310
+haven't you know engaged in market
+
+91
+00:04:03,310 --> 00:04:05,079
+manipulation or any other unfair
+
+92
+00:04:05,079 --> 00:04:07,420
+competitive practice you know another
+
+93
+00:04:07,420 --> 00:04:09,880
+question to ask yourself is is the
+
+94
+00:04:09,880 --> 00:04:12,040
+behavior that Linus media groups being
+
+95
+00:04:12,040 --> 00:04:13,810
+accused of or - personally is being
+
+96
+00:04:13,810 --> 00:04:17,530
+accused of is that in character is Linus
+
+97
+00:04:17,530 --> 00:04:21,579
+Pro censorship does he silence criticism
+
+98
+00:04:21,579 --> 00:04:25,450
+is there is that behavior that anyone
+
+99
+00:04:25,450 --> 00:04:27,040
+has actually encountered
+
+100
+00:04:27,040 --> 00:04:29,830
+from us in the past and if we haven't
+
+101
+00:04:29,830 --> 00:04:32,650
+then you know is it may be worthwhile to
+
+102
+00:04:32,650 --> 00:04:34,290
+give the benefit of the doubt
+
+103
+00:04:34,290 --> 00:04:37,900
+so all right now we're we're past sort
+
+104
+00:04:37,900 --> 00:04:40,840
+of the the preface to the stream so
+
+105
+00:04:40,840 --> 00:04:43,000
+let's get into some of the points that
+
+106
+00:04:43,000 --> 00:04:45,730
+I've more completely prepared I was like
+
+107
+00:04:45,730 --> 00:04:47,530
+sitting inside my car having sort of
+
+108
+00:04:47,530 --> 00:04:49,330
+scrolled soot scroll through some
+
+109
+00:04:49,330 --> 00:04:50,890
+comments on the forum some comments on
+
+110
+00:04:50,890 --> 00:04:52,840
+YouTube I'm trying to figure out sort of
+
+111
+00:04:52,840 --> 00:04:54,520
+what I need to address so I wrote myself
+
+112
+00:04:54,520 --> 00:04:57,370
+up kind of a little script here but of
+
+113
+00:04:57,370 --> 00:04:59,760
+course it's all in it's all my own words
+
+114
+00:04:59,760 --> 00:05:02,140
+just a few guys see me kind of looking
+
+115
+00:05:02,140 --> 00:05:03,760
+down it's because I'm looking at this at
+
+116
+00:05:03,760 --> 00:05:04,990
+the screen I'm just dreaming this awful
+
+117
+00:05:04,990 --> 00:05:08,050
+webcam at my house so here's the deal
+
+118
+00:05:08,050 --> 00:05:09,730
+look I think I just shook the camera
+
+119
+00:05:09,730 --> 00:05:12,550
+sorry about that guys so I'm not gonna
+
+120
+00:05:12,550 --> 00:05:15,220
+be naming any of the individuals that
+
+121
+00:05:15,220 --> 00:05:17,530
+are stirring the pot here because my
+
+122
+00:05:17,530 --> 00:05:19,570
+general policy when it comes to public
+
+123
+00:05:19,570 --> 00:05:22,510
+drama is one of zero acknowledgement
+
+124
+00:05:22,510 --> 00:05:25,500
+like if there's a legitimate grievance
+
+125
+00:05:25,500 --> 00:05:29,320
+no problem get in touch we'll do our
+
+126
+00:05:29,320 --> 00:05:33,940
+best to solve it I think we have a
+
+127
+00:05:33,940 --> 00:05:36,460
+pretty good reputation not just among
+
+128
+00:05:36,460 --> 00:05:38,710
+viewers but within the creator community
+
+129
+00:05:38,710 --> 00:05:41,620
+as being an organization like not just
+
+130
+00:05:41,620 --> 00:05:44,530
+me of course it's there's 20 plus people
+
+131
+00:05:44,530 --> 00:05:46,570
+that work at Linus Media Group but being
+
+132
+00:05:46,570 --> 00:05:47,890
+an organization that just generally
+
+133
+00:05:47,890 --> 00:05:50,260
+cares about fixing problems and doing
+
+134
+00:05:50,260 --> 00:05:55,540
+the right thing I mean an example of
+
+135
+00:05:55,540 --> 00:05:57,100
+sort of our zero acknowledgement like
+
+136
+00:05:57,100 --> 00:05:59,830
+you you just you won't you won't hear
+
+137
+00:05:59,830 --> 00:06:01,660
+from us about this stuff I feel like I
+
+138
+00:06:01,660 --> 00:06:03,760
+can bring up this one now because it's
+
+139
+00:06:03,760 --> 00:06:07,240
+sort of not relevant anymore but we had
+
+140
+00:06:07,240 --> 00:06:09,240
+an issue with totalbiscuit at one point
+
+141
+00:06:09,240 --> 00:06:13,420
+where after having a relationship in the
+
+142
+00:06:13,420 --> 00:06:14,800
+past we had him on the way on show at
+
+143
+00:06:14,800 --> 00:06:17,320
+one point he put me and Luc personally
+
+144
+00:06:17,320 --> 00:06:20,080
+on blast publicly over something that
+
+145
+00:06:20,080 --> 00:06:23,920
+was posted by a user on our forum and
+
+146
+00:06:23,920 --> 00:06:26,080
+that was instead of contacting either me
+
+147
+00:06:26,080 --> 00:06:29,320
+or Luc directly and the really bizarre
+
+148
+00:06:29,320 --> 00:06:31,720
+thing about that was that I know a
+
+149
+00:06:31,720 --> 00:06:34,420
+hundred percent that he had my email
+
+150
+00:06:34,420 --> 00:06:37,630
+since he had no problem asking for and
+
+151
+00:06:37,630 --> 00:06:40,780
+even receiving multiple times text
+
+152
+00:06:40,780 --> 00:06:43,420
+or from me and then like when I reached
+
+153
+00:06:43,420 --> 00:06:45,670
+out directly rather than replying on
+
+154
+00:06:45,670 --> 00:06:46,810
+Twitter because I'm not going to do that
+
+155
+00:06:46,810 --> 00:06:50,100
+when I reached out directly like yo WTF
+
+156
+00:06:50,100 --> 00:06:53,889
+can you retract your comments publicly
+
+157
+00:06:53,889 --> 00:06:56,830
+cuz that's really unfair like this this
+
+158
+00:06:56,830 --> 00:06:58,510
+is a user comment on our forum you
+
+159
+00:06:58,510 --> 00:07:00,610
+didn't even you didn't even contact us
+
+160
+00:07:00,610 --> 00:07:03,280
+and asked us to have it dealt with he
+
+161
+00:07:03,280 --> 00:07:05,290
+basically said and I'm paraphrasing here
+
+162
+00:07:05,290 --> 00:07:06,760
+I didn't feel like pulling up the email
+
+163
+00:07:06,760 --> 00:07:09,190
+cuz it was really annoying he basically
+
+164
+00:07:09,190 --> 00:07:12,070
+said like I don't get why you expect me
+
+165
+00:07:12,070 --> 00:07:13,390
+to reach out to you directly we're not
+
+166
+00:07:13,390 --> 00:07:15,100
+friends and you need to moderate your
+
+167
+00:07:15,100 --> 00:07:17,110
+forum better our subreddit is moderated
+
+168
+00:07:17,110 --> 00:07:18,669
+you're responsible for the content on
+
+169
+00:07:18,669 --> 00:07:21,190
+your forum I'm kind of sitting here
+
+170
+00:07:21,190 --> 00:07:22,450
+going what are you even talking about
+
+171
+00:07:22,450 --> 00:07:26,350
+like at its peak your subreddit was a
+
+172
+00:07:26,350 --> 00:07:28,360
+small fraction of our forum we have like
+
+173
+00:07:28,360 --> 00:07:30,220
+a really really debt it like massive
+
+174
+00:07:30,220 --> 00:07:31,960
+shout-out to our forum moderators we
+
+175
+00:07:31,960 --> 00:07:34,870
+have a dedicated community over there
+
+176
+00:07:34,870 --> 00:07:37,720
+and it's a lot of work what they do to
+
+177
+00:07:37,720 --> 00:07:39,600
+keep the Linus tech tips forum running
+
+178
+00:07:39,600 --> 00:07:42,280
+they're amazing they do a great job and
+
+179
+00:07:42,280 --> 00:07:43,810
+you go after my moderators who tell me
+
+180
+00:07:43,810 --> 00:07:46,419
+they're you know they're subpar just
+
+181
+00:07:46,419 --> 00:07:48,280
+because someone posted something that
+
+182
+00:07:48,280 --> 00:07:50,650
+was offensive to you but not necessarily
+
+183
+00:07:50,650 --> 00:07:51,850
+even against our Community Guidelines
+
+184
+00:07:51,850 --> 00:07:53,830
+actually don't remember exactly what the
+
+185
+00:07:53,830 --> 00:07:59,800
+post was but like yeah he went on the
+
+186
+00:07:59,800 --> 00:08:02,410
+list you never saw another
+
+187
+00:08:02,410 --> 00:08:04,690
+acknowledgement from Linus media group
+
+188
+00:08:04,690 --> 00:08:07,840
+because that's that's the way that's the
+
+189
+00:08:07,840 --> 00:08:11,620
+way to me things should work that's the
+
+190
+00:08:11,620 --> 00:08:13,570
+way my engagement with people on the
+
+191
+00:08:13,570 --> 00:08:15,850
+internet works because that's how my
+
+192
+00:08:15,850 --> 00:08:18,160
+human relationships works so whether
+
+193
+00:08:18,160 --> 00:08:20,350
+it's my household my friends my family
+
+194
+00:08:20,350 --> 00:08:21,550
+my company
+
+195
+00:08:21,550 --> 00:08:24,250
+these are drama-free zones and if you
+
+196
+00:08:24,250 --> 00:08:26,050
+can't abide by those rules if you can't
+
+197
+00:08:26,050 --> 00:08:28,419
+stay drama-free then I am well within my
+
+198
+00:08:28,419 --> 00:08:31,270
+rights to completely ignore you and the
+
+199
+00:08:31,270 --> 00:08:36,820
+funny thing is like like we've we try to
+
+200
+00:08:36,820 --> 00:08:40,690
+like we do that in an effort to try and
+
+201
+00:08:40,690 --> 00:08:42,729
+take the high road and a lot of the time
+
+202
+00:08:42,729 --> 00:08:44,770
+I feel like we end up looking bad
+
+203
+00:08:44,770 --> 00:08:47,680
+because other people get their shots in
+
+204
+00:08:47,680 --> 00:08:51,459
+at us and we just we just never return
+
+205
+00:08:51,459 --> 00:08:54,370
+fire like it's not like I've never had
+
+206
+00:08:54,370 --> 00:08:57,430
+personal you know beef to use the lingo
+
+207
+00:08:57,430 --> 00:08:59,980
+I suppose with other content creators
+
+208
+00:08:59,980 --> 00:09:03,340
+but here's the thing I guarantee you
+
+209
+00:09:03,340 --> 00:09:06,190
+don't know who they are because anyone
+
+210
+00:09:06,190 --> 00:09:08,340
+that I have actually feuded with
+
+211
+00:09:08,340 --> 00:09:11,920
+publicly like Jays two cents or Steve
+
+212
+00:09:11,920 --> 00:09:13,870
+from gamers Nexus trying to beat their
+
+213
+00:09:13,870 --> 00:09:15,880
+benchmark scores or Paul and Kyle
+
+214
+00:09:15,880 --> 00:09:17,710
+ripping their award away from them at
+
+215
+00:09:17,710 --> 00:09:19,630
+the end of scrapyard Wars or Louis
+
+216
+00:09:19,630 --> 00:09:22,360
+Rossman with the whole you know baking a
+
+217
+00:09:22,360 --> 00:09:24,310
+GPU and oh wow you really shouldn't do
+
+218
+00:09:24,310 --> 00:09:26,620
+that Linus he said it a little more
+
+219
+00:09:26,620 --> 00:09:27,940
+colorfully than that but the point is
+
+220
+00:09:27,940 --> 00:09:30,630
+the point is anyone that I have publicly
+
+221
+00:09:30,630 --> 00:09:33,940
+feuded with or beefed with I both like
+
+222
+00:09:33,940 --> 00:09:36,370
+and respect in private like these are
+
+223
+00:09:36,370 --> 00:09:39,130
+people that I would sit down and have a
+
+224
+00:09:39,130 --> 00:09:40,780
+drink without a trade show not that I
+
+225
+00:09:40,780 --> 00:09:42,550
+drink but yeah I can have water they can
+
+226
+00:09:42,550 --> 00:09:43,780
+have something stronger whatever works
+
+227
+00:09:43,780 --> 00:09:48,220
+for them I'm not actually monitoring
+
+228
+00:09:48,220 --> 00:09:50,140
+chat right now cuz I'm reading my thing
+
+229
+00:09:50,140 --> 00:09:53,380
+but hopefully the stream is like working
+
+230
+00:09:53,380 --> 00:09:54,550
+properly and stuff you know it seems
+
+231
+00:09:54,550 --> 00:09:56,950
+like it's fine so back to the question
+
+232
+00:09:56,950 --> 00:10:00,340
+of agendas this is the most important
+
+233
+00:10:00,340 --> 00:10:02,620
+thing to think about again I'm not gonna
+
+234
+00:10:02,620 --> 00:10:04,810
+be naming any names for reasons that
+
+235
+00:10:04,810 --> 00:10:06,760
+I've explained already but I will say
+
+236
+00:10:06,760 --> 00:10:08,800
+that at least one individual out there
+
+237
+00:10:08,800 --> 00:10:11,620
+who has drawn attention to the matter of
+
+238
+00:10:11,620 --> 00:10:19,920
+these Linus tech tips Content ID flags
+
+239
+00:10:19,920 --> 00:10:25,210
+okay so this person rather than simply
+
+240
+00:10:25,210 --> 00:10:27,190
+disputing the claims and don't bother
+
+241
+00:10:27,190 --> 00:10:28,960
+speculating about who it is because
+
+242
+00:10:28,960 --> 00:10:30,880
+there's so many people that are
+
+243
+00:10:30,880 --> 00:10:32,380
+complaining about it at this point and
+
+244
+00:10:32,380 --> 00:10:34,330
+I'll get into why there's a bunch of
+
+245
+00:10:34,330 --> 00:10:35,770
+people complaining about these Content
+
+246
+00:10:35,770 --> 00:10:37,660
+ID flags and why that's happening in a
+
+247
+00:10:37,660 --> 00:10:39,630
+little bit but there's so many people
+
+248
+00:10:39,630 --> 00:10:41,860
+you're probably not going to guess the
+
+249
+00:10:41,860 --> 00:10:43,180
+one that I'm talking about which is the
+
+250
+00:10:43,180 --> 00:10:44,920
+only reason that I'm allowing myself to
+
+251
+00:10:44,920 --> 00:10:50,260
+allude to this but at least one of the
+
+252
+00:10:50,260 --> 00:10:53,680
+people rather than simply disputing the
+
+253
+00:10:53,680 --> 00:10:56,020
+Content ID claims per the standard
+
+254
+00:10:56,020 --> 00:10:58,480
+operating procedure took their problem
+
+255
+00:10:58,480 --> 00:11:00,820
+public rather than just emailing me and
+
+256
+00:11:00,820 --> 00:11:03,370
+I know that at least one of these people
+
+257
+00:11:03,370 --> 00:11:05,710
+more than one actually more than one of
+
+258
+00:11:05,710 --> 00:11:08,110
+these people have my contact
+
+259
+00:11:08,110 --> 00:11:09,730
+information my personal contact
+
+260
+00:11:09,730 --> 00:11:12,130
+information from applying for a job at
+
+261
+00:11:12,130 --> 00:11:14,709
+Linus Media Group in the past one that
+
+262
+00:11:14,709 --> 00:11:18,899
+they obviously didn't get so I
+
+263
+00:11:18,899 --> 00:11:21,610
+disappointed I'm disappointed in the way
+
+264
+00:11:21,610 --> 00:11:23,529
+that some people have handled this
+
+265
+00:11:23,529 --> 00:11:25,240
+without just talking to me when they
+
+266
+00:11:25,240 --> 00:11:27,760
+obviously have my contact info which
+
+267
+00:11:27,760 --> 00:11:29,440
+hasn't changed in the entire time that
+
+268
+00:11:29,440 --> 00:11:32,440
+Linus Media Group has exist existed and
+
+269
+00:11:32,440 --> 00:11:35,680
+I'm I I never win myself any friends
+
+270
+00:11:35,680 --> 00:11:37,360
+when I say stuff like this but that's
+
+271
+00:11:37,360 --> 00:11:38,860
+not really the goal of today's stream
+
+272
+00:11:38,860 --> 00:11:41,019
+I'm I'm a little disappointed in the
+
+273
+00:11:41,019 --> 00:11:44,380
+community you know not necessarily over
+
+274
+00:11:44,380 --> 00:11:46,959
+on the forum by and large the folks over
+
+275
+00:11:46,959 --> 00:11:49,060
+there have been more understanding and
+
+276
+00:11:49,060 --> 00:11:50,709
+have dug a little deeper for the facts
+
+277
+00:11:50,709 --> 00:11:53,500
+before raising their pitchforks but the
+
+278
+00:11:53,500 --> 00:11:56,350
+the YouTube viewer community more
+
+279
+00:11:56,350 --> 00:11:58,209
+broadly I've been disappointed in the
+
+280
+00:11:58,209 --> 00:12:01,140
+way that some individuals have just
+
+281
+00:12:01,140 --> 00:12:06,360
+assumed that I'm some kind of you know
+
+282
+00:12:06,360 --> 00:12:09,579
+wielder of you know the copyright been
+
+283
+00:12:09,579 --> 00:12:12,910
+hammer without any regard for fair use
+
+284
+00:12:12,910 --> 00:12:16,240
+or for smaller creators or that I'm some
+
+285
+00:12:16,240 --> 00:12:19,570
+kind of like anti-competitive asshole
+
+286
+00:12:19,570 --> 00:12:23,680
+like based on what evidence is this
+
+287
+00:12:23,680 --> 00:12:26,170
+assumption being made like am I
+
+288
+00:12:26,170 --> 00:12:29,589
+automatically evil for a problem with an
+
+289
+00:12:29,589 --> 00:12:32,890
+automated system that I don't control a
+
+290
+00:12:32,890 --> 00:12:34,829
+problem that was brought to my attention
+
+291
+00:12:34,829 --> 00:12:38,860
+literally on Friday morning or do we
+
+292
+00:12:38,860 --> 00:12:41,670
+live in a place where you are guilty and
+
+293
+00:12:41,670 --> 00:12:46,029
+guilty until proven innocent maybe
+
+294
+00:12:46,029 --> 00:12:49,120
+there's another way of saying that you
+
+295
+00:12:49,120 --> 00:12:50,800
+should be assumed innocent until proven
+
+296
+00:12:50,800 --> 00:12:51,850
+guilty
+
+297
+00:12:51,850 --> 00:12:53,860
+why don't we assume the best of people
+
+298
+00:12:53,860 --> 00:12:56,370
+until we are presented with
+
+299
+00:12:56,370 --> 00:12:58,570
+incontrovertible evidence that they are
+
+300
+00:12:58,570 --> 00:13:05,800
+actually acting out of malice so so so
+
+301
+00:13:05,800 --> 00:13:08,320
+then with that in mind what I'm gonna do
+
+302
+00:13:08,320 --> 00:13:11,140
+is I'm gonna take all of the vitriol
+
+303
+00:13:11,140 --> 00:13:13,839
+that I've been getting over the last
+
+304
+00:13:13,839 --> 00:13:16,449
+couple of days and I'm going to assume
+
+305
+00:13:16,449 --> 00:13:18,790
+that everyone who is dishing it out did
+
+306
+00:13:18,790 --> 00:13:21,430
+it out of ignorance rather than out
+
+307
+00:13:21,430 --> 00:13:25,990
+of some kind of ill-will so I want the
+
+308
+00:13:25,990 --> 00:13:28,060
+rest of the stream to be more about
+
+309
+00:13:28,060 --> 00:13:31,750
+educating people rather than sort of
+
+310
+00:13:31,750 --> 00:13:34,839
+complaining about the situation all
+
+311
+00:13:34,839 --> 00:13:35,230
+right
+
+312
+00:13:35,230 --> 00:13:38,260
+so someone on our forum actually did a
+
+313
+00:13:38,260 --> 00:13:40,839
+better job of this then I probably could
+
+314
+00:13:40,839 --> 00:13:43,209
+have it's an excellent post so what I'm
+
+315
+00:13:43,209 --> 00:13:45,100
+gonna do is I'm gonna read it out so
+
+316
+00:13:45,100 --> 00:13:46,839
+that you guys can fully understand the
+
+317
+00:13:46,839 --> 00:13:49,600
+difference between a Content ID claim
+
+318
+00:13:49,600 --> 00:13:53,670
+and a copyright strike because they are
+
+319
+00:13:53,670 --> 00:13:57,339
+spectacularly different so it was posted
+
+320
+00:13:57,339 --> 00:13:59,529
+by spotty over on our forum actually I
+
+321
+00:13:59,529 --> 00:14:02,320
+can hopefully this works I'm gonna
+
+322
+00:14:02,320 --> 00:14:03,760
+screen share with you guys yeah it looks
+
+323
+00:14:03,760 --> 00:14:06,850
+like it's working cool so spotty posted
+
+324
+00:14:06,850 --> 00:14:08,410
+in response to someone else you seem to
+
+325
+00:14:08,410 --> 00:14:10,029
+be misinformed there is a huge
+
+326
+00:14:10,029 --> 00:14:12,040
+difference between a copyright claim and
+
+327
+00:14:12,040 --> 00:14:13,810
+it take down notice resulting in a
+
+328
+00:14:13,810 --> 00:14:17,140
+copyright strike copyright claims which
+
+329
+00:14:17,140 --> 00:14:19,000
+was what happened to one of the people
+
+330
+00:14:19,000 --> 00:14:22,510
+that made a video are often actually as
+
+331
+00:14:22,510 --> 00:14:24,910
+far as I know they just are an automatic
+
+332
+00:14:24,910 --> 00:14:27,550
+process where content actually no no no
+
+333
+00:14:27,550 --> 00:14:28,720
+no no that's correct
+
+334
+00:14:28,720 --> 00:14:30,880
+often not always because we actually ran
+
+335
+00:14:30,880 --> 00:14:33,550
+into one that was on purpose a little r1
+
+336
+00:14:33,550 --> 00:14:36,339
+that was manual a little while ago we
+
+337
+00:14:36,339 --> 00:14:40,440
+included a few notes of a song in the
+
+338
+00:14:40,440 --> 00:14:43,870
+the cheap 4k TV video the video has
+
+339
+00:14:43,870 --> 00:14:45,190
+since been edited and we've got
+
+340
+00:14:45,190 --> 00:14:46,750
+monetization re-enabled on it but ya
+
+341
+00:14:46,750 --> 00:14:49,540
+know it can be manual so an often
+
+342
+00:14:49,540 --> 00:14:51,160
+Odyssey like I said spotty did it better
+
+343
+00:14:51,160 --> 00:14:53,110
+than I could often automatic process
+
+344
+00:14:53,110 --> 00:14:55,120
+where Content ID detects that a portion
+
+345
+00:14:55,120 --> 00:14:57,790
+of your copyrighted content has appeared
+
+346
+00:14:57,790 --> 00:14:59,650
+in another video on YouTube and will
+
+347
+00:14:59,650 --> 00:15:02,140
+issue a copyright claim on the video so
+
+348
+00:15:02,140 --> 00:15:06,000
+that video remains public and viewable
+
+349
+00:15:06,000 --> 00:15:08,110
+not all these viewable everywhere
+
+350
+00:15:08,110 --> 00:15:10,089
+because sometimes it will be blocked off
+
+351
+00:15:10,089 --> 00:15:12,010
+in like certain regions per the
+
+352
+00:15:12,010 --> 00:15:15,579
+copyright holders guidelines however
+
+353
+00:15:15,579 --> 00:15:17,380
+what happens after that point is that
+
+354
+00:15:17,380 --> 00:15:19,630
+any ad revenue generated by the video
+
+355
+00:15:19,630 --> 00:15:22,480
+may be redirected to the original
+
+356
+00:15:22,480 --> 00:15:24,910
+copyright holder so there's no actual
+
+357
+00:15:24,910 --> 00:15:27,910
+punishment for the channel when when
+
+358
+00:15:27,910 --> 00:15:31,150
+this Content ID copyright claim is made
+
+359
+00:15:31,150 --> 00:15:33,579
+against them they only lose the revenue
+
+360
+00:15:33,579 --> 00:15:35,190
+for the video
+
+361
+00:15:35,190 --> 00:15:39,040
+okay so now that we've got all that
+
+362
+00:15:39,040 --> 00:15:40,720
+obviously this is not a perfect solution
+
+363
+00:15:40,720 --> 00:15:42,790
+because what if someone
+
+364
+00:15:42,790 --> 00:15:44,910
+what if someone submitted a mash-up of
+
+365
+00:15:44,910 --> 00:15:47,770
+youtuber reaction videos and then all
+
+366
+00:15:47,770 --> 00:15:49,930
+you know nine of the people in the 3x3
+
+367
+00:15:49,930 --> 00:15:51,790
+tile of reacting to whatever it is are
+
+368
+00:15:51,790 --> 00:15:52,750
+eight I guess it would because the
+
+369
+00:15:52,750 --> 00:15:54,160
+original content would be in the middle
+
+370
+00:15:54,160 --> 00:15:56,620
+what if they all submitted Content ID
+
+371
+00:15:56,620 --> 00:15:58,540
+claims well I don't know how you split
+
+372
+00:15:58,540 --> 00:15:59,710
+something anyways I don't think it's
+
+373
+00:15:59,710 --> 00:16:00,910
+actually about granular so it's
+
+374
+00:16:00,910 --> 00:16:02,380
+obviously not a perfect system and
+
+375
+00:16:02,380 --> 00:16:04,270
+there's a lot of room for false
+
+376
+00:16:04,270 --> 00:16:07,840
+positives but there's no punishment for
+
+377
+00:16:07,840 --> 00:16:09,850
+the channel there's no long term impact
+
+378
+00:16:09,850 --> 00:16:12,370
+just the revenue and just on that
+
+379
+00:16:12,370 --> 00:16:18,280
+particular video now copyright strikes
+
+380
+00:16:18,280 --> 00:16:21,460
+or takedown notices so this is this is
+
+381
+00:16:21,460 --> 00:16:23,230
+like DMCA stuff
+
+382
+00:16:23,230 --> 00:16:25,810
+that's what the verge did to Kyle okay
+
+383
+00:16:25,810 --> 00:16:28,170
+so that's when the copyright owner
+
+384
+00:16:28,170 --> 00:16:30,790
+manually issues a legal notice that the
+
+385
+00:16:30,790 --> 00:16:32,380
+video is infringing on their copyright
+
+386
+00:16:32,380 --> 00:16:34,960
+and they demand that the video be
+
+387
+00:16:34,960 --> 00:16:37,180
+removed from the platform so the channel
+
+388
+00:16:37,180 --> 00:16:40,420
+then receives a strike against their
+
+389
+00:16:40,420 --> 00:16:42,160
+channel which comes with punishments
+
+390
+00:16:42,160 --> 00:16:43,900
+such as losing the ability to livestream
+
+391
+00:16:43,900 --> 00:16:45,790
+just one strike and you can't livestream
+
+392
+00:16:45,790 --> 00:16:48,100
+anymore and can even come with the
+
+393
+00:16:48,100 --> 00:16:50,890
+potential to be demoted in terms of
+
+394
+00:16:50,890 --> 00:16:54,100
+YouTube's YouTube serving your content
+
+395
+00:16:54,100 --> 00:16:55,150
+to people though I don't think that's
+
+396
+00:16:55,150 --> 00:16:57,790
+ever actually been confirmed and then
+
+397
+00:16:57,790 --> 00:17:00,460
+after multiple copyright strikes so
+
+398
+00:17:00,460 --> 00:17:02,650
+remember this is DMCA takedowns the
+
+399
+00:17:02,650 --> 00:17:04,480
+channel can be removed completely I
+
+400
+00:17:04,480 --> 00:17:07,329
+think it's three right before don't
+
+401
+00:17:07,329 --> 00:17:10,900
+quote me on that Ben so that that's
+
+402
+00:17:10,900 --> 00:17:14,620
+really different and that is not what is
+
+403
+00:17:14,620 --> 00:17:16,480
+happening right now so what's happening
+
+404
+00:17:16,480 --> 00:17:19,540
+is Content ID claims and what is not
+
+405
+00:17:19,540 --> 00:17:22,569
+happening is manual DMCA takedowns so
+
+406
+00:17:22,569 --> 00:17:24,819
+Content ID claims are handled by YouTube
+
+407
+00:17:24,819 --> 00:17:25,750
+algorithmically
+
+408
+00:17:25,750 --> 00:17:28,480
+so our MCN full screen is making sure
+
+409
+00:17:28,480 --> 00:17:29,740
+that people aren't real plotting our
+
+410
+00:17:29,740 --> 00:17:31,180
+videos because that does actually happen
+
+411
+00:17:31,180 --> 00:17:33,520
+a lot and that way we don't have to pull
+
+412
+00:17:33,520 --> 00:17:34,780
+all that crap down and go through it
+
+413
+00:17:34,780 --> 00:17:36,250
+manually fill out a bunch of annoying
+
+414
+00:17:36,250 --> 00:17:38,170
+paperwork just if people reload our
+
+415
+00:17:38,170 --> 00:17:41,200
+videos we just take the Adsense fine who
+
+416
+00:17:41,200 --> 00:17:44,860
+cares no big deal the only times that we
+
+417
+00:17:44,860 --> 00:17:47,560
+have issued DMCA takedowns are for
+
+418
+00:17:47,560 --> 00:17:48,640
+people who are up
+
+419
+00:17:48,640 --> 00:17:50,920
+loading content that is supposed to be
+
+420
+00:17:50,920 --> 00:17:54,340
+on other sites such as hold on mixed
+
+421
+00:17:54,340 --> 00:17:57,010
+messaging oh I didn't mean to do that
+
+422
+00:17:57,010 --> 00:18:01,090
+Thank You Nick um there we go so let's
+
+423
+00:18:01,090 --> 00:18:05,040
+go back to that how was I talking about
+
+424
+00:18:05,040 --> 00:18:07,240
+right okay so there was something that I
+
+425
+00:18:07,240 --> 00:18:16,270
+wanted to add so Content ID on top of it
+
+426
+00:18:16,270 --> 00:18:17,620
+not having any long-term ramifications
+
+427
+00:18:17,620 --> 00:18:20,260
+for the channel aside from just losing
+
+428
+00:18:20,260 --> 00:18:22,090
+the revenue on that video if you believe
+
+429
+00:18:22,090 --> 00:18:24,130
+for whatever reason that that Content ID
+
+430
+00:18:24,130 --> 00:18:25,830
+claim is not valid
+
+431
+00:18:25,830 --> 00:18:28,660
+you can dispute it and I'm actually
+
+432
+00:18:28,660 --> 00:18:30,190
+gonna walk you guys through the process
+
+433
+00:18:30,190 --> 00:18:32,380
+for how to dispute a Content ID claim
+
+434
+00:18:32,380 --> 00:18:34,120
+I'll show you I'm gonna dispute one on
+
+435
+00:18:34,120 --> 00:18:37,960
+my channel right now if you dispute it
+
+436
+00:18:37,960 --> 00:18:40,060
+in a timely manner it actually doesn't
+
+437
+00:18:40,060 --> 00:18:42,160
+even affect the monetization of the
+
+438
+00:18:42,160 --> 00:18:47,560
+video either so it's some period of days
+
+439
+00:18:47,560 --> 00:18:49,690
+like you don't have to do it ten minutes
+
+440
+00:18:49,690 --> 00:18:51,160
+after you get it but I also wouldn't
+
+441
+00:18:51,160 --> 00:18:53,110
+wait for a week or a month or whatever
+
+442
+00:18:53,110 --> 00:18:55,870
+else but if you do it right away then
+
+443
+00:18:55,870 --> 00:18:58,090
+there is literally no impact whatsoever
+
+444
+00:18:58,090 --> 00:19:00,040
+other than to help train the YouTube
+
+445
+00:19:00,040 --> 00:19:02,940
+algorithm so let's go ahead and fire up
+
+446
+00:19:02,940 --> 00:19:07,000
+here we go hopefully I am doing all this
+
+447
+00:19:07,000 --> 00:19:09,670
+correctly yeah seems fine okay so let's
+
+448
+00:19:09,670 --> 00:19:10,960
+fire up a video here we've actually
+
+449
+00:19:10,960 --> 00:19:14,320
+gotten a ton of Content ID claims over
+
+450
+00:19:14,320 --> 00:19:16,840
+the last probably I'd say week or so
+
+451
+00:19:16,840 --> 00:19:19,000
+including some from our own channels
+
+452
+00:19:19,000 --> 00:19:22,750
+against our own channels just because I
+
+453
+00:19:22,750 --> 00:19:24,790
+is my belief that they have made some
+
+454
+00:19:24,790 --> 00:19:26,740
+changes to the Content ID system making
+
+455
+00:19:26,740 --> 00:19:28,870
+a little bit more sensitive it's again
+
+456
+00:19:28,870 --> 00:19:30,370
+my belief I don't have any proof of this
+
+457
+00:19:30,370 --> 00:19:32,350
+but that it is due to the ongoing
+
+458
+00:19:32,350 --> 00:19:34,330
+chapter 13 stuff that's going on in the
+
+459
+00:19:34,330 --> 00:19:37,630
+EU but I've disputed most of them so
+
+460
+00:19:37,630 --> 00:19:39,100
+you'll see that most of these aren't
+
+461
+00:19:39,100 --> 00:19:41,680
+really that new so this was streamed in
+
+462
+00:19:41,680 --> 00:19:44,230
+last November includes copyrighted
+
+463
+00:19:44,230 --> 00:19:45,940
+content so we go ahead and we click on
+
+464
+00:19:45,940 --> 00:19:47,880
+this okay
+
+465
+00:19:47,880 --> 00:19:50,380
+it says ads might appear on your video
+
+466
+00:19:50,380 --> 00:19:52,330
+copyrighted content was found in your
+
+467
+00:19:52,330 --> 00:19:54,070
+video the claimant is allowing their
+
+468
+00:19:54,070 --> 00:19:56,470
+content to be used in your YouTube video
+
+469
+00:19:56,470 --> 00:19:59,440
+however ads might appear on it if you
+
+470
+00:19:59,440 --> 00:20:02,050
+agree with these conditions you don't
+
+471
+00:20:02,050 --> 00:20:02,470
+have to do
+
+472
+00:20:02,470 --> 00:20:05,140
+anything monetized by claimant you can
+
+473
+00:20:05,140 --> 00:20:06,460
+use the copyrighted content your video
+
+474
+00:20:06,460 --> 00:20:07,929
+but ads might appear in your video okay
+
+475
+00:20:07,929 --> 00:20:09,370
+so we can learn more just go ahead and
+
+476
+00:20:09,370 --> 00:20:12,130
+let me learn some more what is a Content
+
+477
+00:20:12,130 --> 00:20:13,720
+ID claim if you upload a video that
+
+478
+00:20:13,720 --> 00:20:15,400
+contains copyright protected material
+
+479
+00:20:15,400 --> 00:20:17,020
+you could end up with a Content ID claim
+
+480
+00:20:17,020 --> 00:20:18,880
+companies that are music movies TV shows
+
+481
+00:20:18,880 --> 00:20:20,440
+video games another copyright protected
+
+482
+00:20:20,440 --> 00:20:22,990
+material content owners can set content
+
+483
+00:20:22,990 --> 00:20:24,250
+had to eat a block material from YouTube
+
+484
+00:20:24,250 --> 00:20:25,690
+when a claim is may they can also allow
+
+485
+00:20:25,690 --> 00:20:27,730
+the video to remain live on YouTube with
+
+486
+00:20:27,730 --> 00:20:29,409
+ads in those cases the revenue goes to
+
+487
+00:20:29,409 --> 00:20:30,490
+the copyright owners of the claimed
+
+488
+00:20:30,490 --> 00:20:33,820
+content okay am I in trouble
+
+489
+00:20:33,820 --> 00:20:35,980
+probably not in most cases getting a
+
+490
+00:20:35,980 --> 00:20:37,750
+Content ID claim isn't a bad thing for
+
+491
+00:20:37,750 --> 00:20:39,010
+your YouTube channel it just means hey
+
+492
+00:20:39,010 --> 00:20:40,570
+we found some content your video that's
+
+493
+00:20:40,570 --> 00:20:42,190
+owned by someone else it's up to the
+
+494
+00:20:42,190 --> 00:20:43,600
+copyright owners to decide whether or
+
+495
+00:20:43,600 --> 00:20:45,159
+not others can reuse their original
+
+496
+00:20:45,159 --> 00:20:46,990
+material in many cases they allow their
+
+497
+00:20:46,990 --> 00:20:48,549
+content to be used in YouTube videos in
+
+498
+00:20:48,549 --> 00:20:49,929
+exchange for having ads run on those
+
+499
+00:20:49,929 --> 00:20:51,850
+videos these ads may play before the
+
+500
+00:20:51,850 --> 00:20:55,240
+video or during it bla bla bla alright
+
+501
+00:20:55,240 --> 00:20:56,799
+they can mute it they can block certain
+
+502
+00:20:56,799 --> 00:20:58,630
+platforms they can block a video what
+
+503
+00:20:58,630 --> 00:21:00,280
+can I do about this claim if you get a
+
+504
+00:21:00,280 --> 00:21:01,419
+Content ID claim there are a few
+
+505
+00:21:01,419 --> 00:21:02,650
+different things you can do depending on
+
+506
+00:21:02,650 --> 00:21:04,570
+the situation you can do nothing if you
+
+507
+00:21:04,570 --> 00:21:06,250
+agree but yeah I probably shouldn't use
+
+508
+00:21:06,250 --> 00:21:08,440
+that you can leave it and you can always
+
+509
+00:21:08,440 --> 00:21:10,179
+change your mind later you can remove
+
+510
+00:21:10,179 --> 00:21:14,049
+the music so that's cool you can swap
+
+511
+00:21:14,049 --> 00:21:15,880
+the music you can share revenue if
+
+512
+00:21:15,880 --> 00:21:17,049
+you're a member of the YouTube Partner
+
+513
+00:21:17,049 --> 00:21:19,480
+Program you may be able to share revenue
+
+514
+00:21:19,480 --> 00:21:21,039
+with the music rights owner I actually
+
+515
+00:21:21,039 --> 00:21:22,390
+did not know about that it's kind of
+
+516
+00:21:22,390 --> 00:21:24,159
+neat you can dispute the claim if you
+
+517
+00:21:24,159 --> 00:21:25,480
+have the required rights to use the
+
+518
+00:21:25,480 --> 00:21:27,039
+copyright protected content your video
+
+519
+00:21:27,039 --> 00:21:28,480
+or if you think the system has somehow
+
+520
+00:21:28,480 --> 00:21:31,150
+misidentified your video you may dispute
+
+521
+00:21:31,150 --> 00:21:33,370
+the claim so how to dispute a claim you
+
+522
+00:21:33,370 --> 00:21:36,179
+go to let's go back to where we were
+
+523
+00:21:36,179 --> 00:21:38,590
+okay oh yeah first we can check and see
+
+524
+00:21:38,590 --> 00:21:40,600
+what exactly it is so in this case it
+
+525
+00:21:40,600 --> 00:21:43,419
+was oh it was a trailer for some Pokemon
+
+526
+00:21:43,419 --> 00:21:45,220
+thing or other oh we were doing live
+
+527
+00:21:45,220 --> 00:21:47,890
+commentary so yes this is copyrighted
+
+528
+00:21:47,890 --> 00:21:50,890
+content but it's a trailer which is
+
+529
+00:21:50,890 --> 00:21:52,330
+generally considered to be for
+
+530
+00:21:52,330 --> 00:21:54,940
+promotional purposes it's very unlikely
+
+531
+00:21:54,940 --> 00:21:58,960
+that a copyright holder would be mad at
+
+532
+00:21:58,960 --> 00:22:01,990
+you for playing their trailer and
+
+533
+00:22:01,990 --> 00:22:03,309
+talking about it that's kind of like
+
+534
+00:22:03,309 --> 00:22:06,100
+what the point of them is also where
+
+535
+00:22:06,100 --> 00:22:08,470
+we're commenting on it that's pretty
+
+536
+00:22:08,470 --> 00:22:10,960
+pretty well established to be a fair use
+
+537
+00:22:10,960 --> 00:22:12,730
+use case for it so we're gonna file a
+
+538
+00:22:12,730 --> 00:22:13,299
+dispute
+
+539
+00:22:13,299 --> 00:22:15,549
+I believe this copyright claim is not
+
+540
+00:22:15,549 --> 00:22:16,270
+valid
+
+541
+00:22:16,270 --> 00:22:18,340
+here's a few options I beheld the cd/dvd
+
+542
+00:22:18,340 --> 00:22:20,140
+or bought the song online by the way if
+
+543
+00:22:20,140 --> 00:22:21,280
+you click that if that's your reason
+
+544
+00:22:21,280 --> 00:22:22,360
+you're wrong
+
+545
+00:22:22,360 --> 00:22:24,250
+I gave credit in the video if you click
+
+546
+00:22:24,250 --> 00:22:26,350
+that that's your reason you're wrong the
+
+547
+00:22:26,350 --> 00:22:27,940
+video is my original content I own all
+
+548
+00:22:27,940 --> 00:22:28,929
+the rights yep
+
+549
+00:22:28,929 --> 00:22:30,670
+sometimes it just Flags random crap we
+
+550
+00:22:30,670 --> 00:22:34,750
+we actually had a claim against an actor
+
+551
+00:22:34,750 --> 00:22:36,220
+April Fool's video we uploaded where it
+
+552
+00:22:36,220 --> 00:22:38,080
+was just a case lying in the rain and it
+
+553
+00:22:38,080 --> 00:22:40,120
+was just the sound of rain and there was
+
+554
+00:22:40,120 --> 00:22:43,030
+a claim that that we had used someone
+
+555
+00:22:43,030 --> 00:22:44,860
+else's rain sound effect we were like yo
+
+556
+00:22:44,860 --> 00:22:46,210
+let's no it's just our microphone
+
+557
+00:22:46,210 --> 00:22:49,059
+sitting on the porch no so that was that
+
+558
+00:22:49,059 --> 00:22:51,190
+was all our original content here's
+
+559
+00:22:51,190 --> 00:22:52,300
+another one I have license for
+
+560
+00:22:52,300 --> 00:22:55,210
+permission to use this material okay my
+
+561
+00:22:55,210 --> 00:22:56,679
+use of the content meets the legal
+
+562
+00:22:56,679 --> 00:22:58,300
+requirements for fair use or fair
+
+563
+00:22:58,300 --> 00:22:59,860
+dealing under applicable copyright laws
+
+564
+00:22:59,860 --> 00:23:01,960
+that's the one we're going to use here
+
+565
+00:23:01,960 --> 00:23:04,059
+or the content is in the public domain
+
+566
+00:23:04,059 --> 00:23:05,290
+and not eligible for copyright
+
+567
+00:23:05,290 --> 00:23:06,250
+protection so these are all the reasons
+
+568
+00:23:06,250 --> 00:23:08,290
+you can say that that it's fine to use
+
+569
+00:23:08,290 --> 00:23:13,059
+it so here we go in the case of the
+
+570
+00:23:13,059 --> 00:23:14,950
+heaven benchmark which was what I think
+
+571
+00:23:14,950 --> 00:23:16,630
+a lot of people are getting flagged on
+
+572
+00:23:16,630 --> 00:23:20,429
+we don't own that and as far as I know
+
+573
+00:23:20,429 --> 00:23:23,320
+Unigine gives zero FS about people
+
+574
+00:23:23,320 --> 00:23:24,760
+uploading their benchmark content
+
+575
+00:23:24,760 --> 00:23:25,929
+they've never talked to us about it and
+
+576
+00:23:25,929 --> 00:23:27,730
+we've got probably hours of it in our
+
+577
+00:23:27,730 --> 00:23:29,500
+videos which is probably why other
+
+578
+00:23:29,500 --> 00:23:32,260
+people are getting claims because like
+
+579
+00:23:32,260 --> 00:23:34,559
+we uploaded it a lot and quite early on
+
+580
+00:23:34,559 --> 00:23:37,900
+and it's just it you have to submit
+
+581
+00:23:37,900 --> 00:23:40,210
+these reports otherwise the system can't
+
+582
+00:23:40,210 --> 00:23:43,059
+fix itself now I can understand where a
+
+583
+00:23:43,059 --> 00:23:44,830
+lot of people whoops
+
+584
+00:23:44,830 --> 00:23:46,960
+I just hit a hotkey that's not a thing
+
+585
+00:23:46,960 --> 00:23:48,670
+good there we go I can understand why a
+
+586
+00:23:48,670 --> 00:23:50,800
+lot of people would find the wording of
+
+587
+00:23:50,800 --> 00:23:53,700
+what would be the correct response here
+
+588
+00:23:53,700 --> 00:23:55,150
+kind of scary
+
+589
+00:23:55,150 --> 00:23:57,340
+my use of the content meets the legal
+
+590
+00:23:57,340 --> 00:23:58,840
+requirements for fair use or fair
+
+591
+00:23:58,840 --> 00:24:00,309
+dealing under applicable copyright laws
+
+592
+00:24:00,309 --> 00:24:02,050
+that's a scary thing to click because it
+
+593
+00:24:02,050 --> 00:24:04,540
+feels like you should probably consult a
+
+594
+00:24:04,540 --> 00:24:05,890
+lawyer before you click on something
+
+595
+00:24:05,890 --> 00:24:07,150
+like that
+
+596
+00:24:07,150 --> 00:24:09,730
+but that's not necessarily the case you
+
+597
+00:24:09,730 --> 00:24:11,500
+know what I would say is make sure that
+
+598
+00:24:11,500 --> 00:24:17,530
+you at the very least I would say that
+
+599
+00:24:17,530 --> 00:24:19,900
+at the at the very least you should you
+
+600
+00:24:19,900 --> 00:24:22,030
+know probably read up on what went down
+
+601
+00:24:22,030 --> 00:24:25,809
+with h3h3 productions and that person
+
+602
+00:24:25,809 --> 00:24:28,270
+they made a reaction video of a lot of
+
+603
+00:24:28,270 --> 00:24:30,070
+good material there there was a lawyer
+
+604
+00:24:30,070 --> 00:24:32,680
+that actually did a bunch of content
+
+605
+00:24:32,680 --> 00:24:38,100
+sort of around that very educational I
+
+606
+00:24:38,100 --> 00:24:40,870
+would like at least gogo read up on that
+
+607
+00:24:40,870 --> 00:24:43,780
+but no not not necessarily I mean fair
+
+608
+00:24:43,780 --> 00:24:45,280
+fair use in some cases is pretty
+
+609
+00:24:45,280 --> 00:24:46,540
+cut-and-dried whereas in other cases
+
+610
+00:24:46,540 --> 00:24:48,460
+yeah you you might actually end up in
+
+611
+00:24:48,460 --> 00:24:50,590
+court trying to defend it so a lot of
+
+612
+00:24:50,590 --> 00:24:52,210
+the time yeah it's probably better off
+
+613
+00:24:52,210 --> 00:24:53,560
+to just leave it which is why you'll see
+
+614
+00:24:53,560 --> 00:24:56,020
+we do actually have here if I go back to
+
+615
+00:24:56,020 --> 00:24:59,920
+the dashboard oh no I'm not gonna go
+
+616
+00:24:59,920 --> 00:25:01,060
+back to the dashboard yet you know what
+
+617
+00:25:01,060 --> 00:25:02,670
+I'm gonna finish my I'm gonna finish my
+
+618
+00:25:02,670 --> 00:25:05,200
+my dispute here okay
+
+619
+00:25:05,200 --> 00:25:07,660
+I believe this is not valid because my
+
+620
+00:25:07,660 --> 00:25:10,720
+use blah blah blah fair use etc yep
+
+621
+00:25:10,720 --> 00:25:13,560
+continue I'm quite sure about this a
+
+622
+00:25:13,560 --> 00:25:16,090
+visual content please explain briefly we
+
+623
+00:25:16,090 --> 00:25:19,890
+are commenting on this trailer I believe
+
+624
+00:25:19,890 --> 00:25:23,650
+this is fair use I have in good faith
+
+625
+00:25:23,650 --> 00:25:29,170
+etc etc etc thank you I understand well
+
+626
+00:25:29,170 --> 00:25:33,880
+that's my name continue and we can
+
+627
+00:25:33,880 --> 00:25:36,790
+submit our dispute yes yes I'm sure so
+
+628
+00:25:36,790 --> 00:25:38,950
+the process takes about 30 seconds and
+
+629
+00:25:38,950 --> 00:25:41,650
+if you if you do these things you're
+
+630
+00:25:41,650 --> 00:25:43,630
+actually helping them make the Content
+
+631
+00:25:43,630 --> 00:25:45,490
+ID system better because if they get a
+
+632
+00:25:45,490 --> 00:25:49,210
+bunch of disputes then they can go back
+
+633
+00:25:49,210 --> 00:25:52,270
+and they can say oh right okay so that's
+
+634
+00:25:52,270 --> 00:25:53,650
+probably not right let's go ahead and
+
+635
+00:25:53,650 --> 00:25:57,460
+get that updated um so there you go
+
+636
+00:25:57,460 --> 00:25:58,420
+dispute in progress
+
+637
+00:25:58,420 --> 00:25:59,830
+typically these take a couple of days
+
+638
+00:25:59,830 --> 00:26:02,440
+for my experience but that is that is
+
+639
+00:26:02,440 --> 00:26:04,710
+the entire process hopefully that was
+
+640
+00:26:04,710 --> 00:26:08,260
+illuminating for y'all I think there was
+
+641
+00:26:08,260 --> 00:26:09,280
+a thing I said I was going to get back
+
+642
+00:26:09,280 --> 00:26:13,690
+to I forget what it was but let's go
+
+643
+00:26:13,690 --> 00:26:18,100
+back to my notes here yeah actually you
+
+644
+00:26:18,100 --> 00:26:19,330
+know what no I think that's pretty much
+
+645
+00:26:19,330 --> 00:26:23,170
+all I have to say on the subject if
+
+646
+00:26:23,170 --> 00:26:26,110
+anyone out there did get a Content ID
+
+647
+00:26:26,110 --> 00:26:28,870
+claim from - Media Group - tech tips any
+
+648
+00:26:28,870 --> 00:26:32,260
+of its affiliated whatever unless you're
+
+649
+00:26:32,260 --> 00:26:35,650
+actually just reloading our videos which
+
+650
+00:26:35,650 --> 00:26:38,680
+you're not supposed to do I would say
+
+651
+00:26:38,680 --> 00:26:40,600
+just dispute it the worst thing that
+
+652
+00:26:40,600 --> 00:26:42,070
+could possibly happen is we could say
+
+653
+00:26:42,070 --> 00:26:44,990
+nope we dispute your dispute
+
+654
+00:26:44,990 --> 00:26:49,980
+we disagree I never done that it's just
+
+655
+00:26:49,980 --> 00:26:51,920
+not really a thing people upload all
+
+656
+00:26:51,920 --> 00:26:55,860
+kinds of like highlight reels or silly
+
+657
+00:26:55,860 --> 00:26:59,930
+reuses of of limas media group content
+
+658
+00:26:59,930 --> 00:27:02,970
+you know set to songs or like whatever
+
+659
+00:27:02,970 --> 00:27:05,310
+we love that kind of stuff we love our
+
+660
+00:27:05,310 --> 00:27:08,850
+community memeing it up we we consider
+
+661
+00:27:08,850 --> 00:27:11,870
+ourselves a fairly internet savvy
+
+662
+00:27:11,870 --> 00:27:14,610
+company and not just like the internet
+
+663
+00:27:14,610 --> 00:27:20,670
+but also just oh all right Nick yeah
+
+664
+00:27:20,670 --> 00:27:22,740
+thanks Nick Nick told me what I was what
+
+665
+00:27:22,740 --> 00:27:24,270
+I was showing I was gonna show a thing
+
+666
+00:27:24,270 --> 00:27:25,710
+that wasn't worth disputing but we
+
+667
+00:27:25,710 --> 00:27:27,000
+consider ourselves not just like how the
+
+668
+00:27:27,000 --> 00:27:28,620
+internet works a V would also internet
+
+669
+00:27:28,620 --> 00:27:31,020
+culture savvy and we recognize that you
+
+670
+00:27:31,020 --> 00:27:34,650
+know memes and discussion about us is
+
+671
+00:27:34,650 --> 00:27:36,690
+it's just it's good if people want to
+
+672
+00:27:36,690 --> 00:27:39,150
+just like have fun with us and engage
+
+673
+00:27:39,150 --> 00:27:41,370
+with us that way it's great I've gotten
+
+674
+00:27:41,370 --> 00:27:44,640
+many many and everything from smile to
+
+675
+00:27:44,640 --> 00:27:46,650
+full-on laugh from the kinds of things
+
+676
+00:27:46,650 --> 00:27:47,910
+that our community has done with our
+
+677
+00:27:47,910 --> 00:27:52,050
+content and I love it so yeah I just
+
+678
+00:27:52,050 --> 00:27:54,560
+submit a dispute it'll probably be fine
+
+679
+00:27:54,560 --> 00:27:56,790
+so Nick reminded me what I had said I
+
+680
+00:27:56,790 --> 00:27:59,340
+was going to do I was going to show some
+
+681
+00:27:59,340 --> 00:28:01,470
+of the copyright notices that I
+
+682
+00:28:01,470 --> 00:28:04,470
+considered not worth disputing some of
+
+683
+00:28:04,470 --> 00:28:05,760
+these were left this one was left in
+
+684
+00:28:05,760 --> 00:28:08,160
+here just because it's like Rancho
+
+685
+00:28:08,160 --> 00:28:09,810
+Rancho doesn't really like make any
+
+686
+00:28:09,810 --> 00:28:12,000
+money on Adsense anyway like after the
+
+687
+00:28:12,000 --> 00:28:13,950
+first week or so it doesn't get any view
+
+688
+00:28:13,950 --> 00:28:16,860
+so what am I like what am i bothering
+
+689
+00:28:16,860 --> 00:28:18,600
+for it's like it's not worth the 30
+
+690
+00:28:18,600 --> 00:28:19,860
+seconds it takes me to dispute the
+
+691
+00:28:19,860 --> 00:28:22,260
+stupid thing but some of these I left
+
+692
+00:28:22,260 --> 00:28:25,470
+because there is actually potential
+
+693
+00:28:25,470 --> 00:28:29,580
+legal ramifications if I dispute it and
+
+694
+00:28:29,580 --> 00:28:31,290
+they decide they don't like my dispute
+
+695
+00:28:31,290 --> 00:28:33,390
+and they they want to they want to go to
+
+696
+00:28:33,390 --> 00:28:35,370
+court over whether it's fair you so this
+
+697
+00:28:35,370 --> 00:28:37,470
+I think is an example of that the
+
+698
+00:28:37,470 --> 00:28:42,710
+fallout 4 ultimate bomb case build log
+
+699
+00:28:42,710 --> 00:28:47,850
+so here we used some kind of classical
+
+700
+00:28:47,850 --> 00:28:50,280
+music apparently yeah so this is like
+
+701
+00:28:50,280 --> 00:28:52,860
+music stuff which from our experience is
+
+702
+00:28:52,860 --> 00:28:54,900
+super complicated because there's
+
+703
+00:28:54,900 --> 00:28:57,330
+different copyrights for the actual
+
+704
+00:28:57,330 --> 00:28:57,779
+sheet
+
+705
+00:28:57,779 --> 00:29:01,139
+music itself and the performance and it
+
+706
+00:29:01,139 --> 00:29:03,149
+varies from country to country and we
+
+707
+00:29:03,149 --> 00:29:04,559
+were just like this was around the time
+
+708
+00:29:04,559 --> 00:29:06,169
+that we were just like you know what
+
+709
+00:29:06,169 --> 00:29:09,149
+screw it we're just gonna like pay the
+
+710
+00:29:09,149 --> 00:29:11,429
+thousands and thousands of dollars that
+
+711
+00:29:11,429 --> 00:29:13,529
+it costs to subscribe to a service like
+
+712
+00:29:13,529 --> 00:29:15,330
+Warner Chappell and we're just gonna
+
+713
+00:29:15,330 --> 00:29:18,809
+gonna invest in having music for our oh
+
+714
+00:29:18,809 --> 00:29:20,099
+I'm parent Lee I'm not showing you guys
+
+715
+00:29:20,099 --> 00:29:20,969
+the screen right now
+
+716
+00:29:20,969 --> 00:29:22,080
+sorry Thank You Nick what would I do
+
+717
+00:29:22,080 --> 00:29:24,389
+without you're my guardian angel so here
+
+718
+00:29:24,389 --> 00:29:24,719
+you go
+
+719
+00:29:24,719 --> 00:29:26,340
+so they'll fall out for ultimate bomb
+
+720
+00:29:26,340 --> 00:29:27,719
+build there you go so here's a bunch of
+
+721
+00:29:27,719 --> 00:29:29,159
+performances we were just like you know
+
+722
+00:29:29,159 --> 00:29:30,239
+what we're not gonna we're not gonna
+
+723
+00:29:30,239 --> 00:29:31,889
+deal with that we're just gonna we're
+
+724
+00:29:31,889 --> 00:29:35,369
+just gonna spend a lot the new one we're
+
+725
+00:29:35,369 --> 00:29:36,869
+on now is like evac forget which one it
+
+726
+00:29:36,869 --> 00:29:38,700
+is it's like even better than the
+
+727
+00:29:38,700 --> 00:29:40,109
+warner/chappell libraries we were using
+
+728
+00:29:40,109 --> 00:29:43,109
+but it's like I was like 15 grand a year
+
+729
+00:29:43,109 --> 00:29:45,149
+so I'm stupid like that's amazing how
+
+730
+00:29:45,149 --> 00:29:48,950
+much it costs to to do things properly
+
+731
+00:29:48,950 --> 00:29:52,799
+so this is an example of one that we're
+
+732
+00:29:52,799 --> 00:29:55,049
+just we're just gonna leave if they want
+
+733
+00:29:55,049 --> 00:29:56,969
+the you know a few hundred bucks or
+
+734
+00:29:56,969 --> 00:29:58,710
+whatever then I guess they're they're
+
+735
+00:29:58,710 --> 00:30:01,229
+welcome to it going back there's just
+
+736
+00:30:01,229 --> 00:30:02,639
+like some older stuff that I just didn't
+
+737
+00:30:02,639 --> 00:30:04,589
+bother with as well but I'm glad I
+
+738
+00:30:04,589 --> 00:30:05,729
+didn't bother with all of them because
+
+739
+00:30:05,729 --> 00:30:08,009
+at least it means that I had this to
+
+740
+00:30:08,009 --> 00:30:11,309
+show you wonderful people how to dispute
+
+741
+00:30:11,309 --> 00:30:15,599
+a Content ID claim I guess right before
+
+742
+00:30:15,599 --> 00:30:19,619
+I go I should probably see if there's
+
+743
+00:30:19,619 --> 00:30:21,359
+any like chats or anything that I should
+
+744
+00:30:21,359 --> 00:30:26,950
+deal with
+
+745
+00:30:26,950 --> 00:30:29,690
+mostly just people being nice supportive
+
+746
+00:30:29,690 --> 00:30:32,720
+well that's kind of amazing
+
+747
+00:30:32,720 --> 00:30:38,179
+a couple people just want a summary of
+
+748
+00:30:38,179 --> 00:30:39,710
+the issue since they tuned in a little
+
+749
+00:30:39,710 --> 00:30:41,510
+bit later in this dream okay so
+
+750
+00:30:41,510 --> 00:30:43,250
+basically people have been getting
+
+751
+00:30:43,250 --> 00:30:45,620
+Content ID claims not to be confused
+
+752
+00:30:45,620 --> 00:30:49,730
+with copyright strikes from lionís Media
+
+753
+00:30:49,730 --> 00:30:51,650
+Group they're from fullscreen on behalf
+
+754
+00:30:51,650 --> 00:30:54,770
+of Lynas Media Group these have been
+
+755
+00:30:54,770 --> 00:30:57,410
+false content ID matches a lot of them
+
+756
+00:30:57,410 --> 00:31:00,610
+on the heaven benchmark not although and
+
+757
+00:31:00,610 --> 00:31:04,130
+people think and a bunch of pitchforks
+
+758
+00:31:04,130 --> 00:31:05,480
+are being raised and torches and all
+
+759
+00:31:05,480 --> 00:31:10,309
+that that - Media Group is you know
+
+760
+00:31:10,309 --> 00:31:13,010
+trying to keep down smaller creators or
+
+761
+00:31:13,010 --> 00:31:15,140
+whatever totally not a thing not what
+
+762
+00:31:15,140 --> 00:31:16,730
+happened it's an automated system we
+
+763
+00:31:16,730 --> 00:31:18,169
+believe it's gotten some updates lately
+
+764
+00:31:18,169 --> 00:31:21,320
+and disputing Content ID claims is super
+
+765
+00:31:21,320 --> 00:31:24,200
+easy I showed earlier on this stream how
+
+766
+00:31:24,200 --> 00:31:29,419
+you do it as long as as you don't think
+
+767
+00:31:29,419 --> 00:31:31,070
+the original copyright holder doesn't
+
+768
+00:31:31,070 --> 00:31:32,809
+have a claim to it either it's pretty
+
+769
+00:31:32,809 --> 00:31:34,730
+safe to go ahead and just dispute those
+
+770
+00:31:34,730 --> 00:31:37,220
+things it's really not a lot that can go
+
+771
+00:31:37,220 --> 00:31:39,230
+wrong it has no long-term impact on your
+
+772
+00:31:39,230 --> 00:31:41,000
+channel so it's all good we just all
+
+773
+00:31:41,000 --> 00:31:44,120
+need to have less drama and you know
+
+774
+00:31:44,120 --> 00:31:45,530
+give people the benefit of the doubt if
+
+775
+00:31:45,530 --> 00:31:46,820
+we have a problem with them we need to
+
+776
+00:31:46,820 --> 00:31:49,059
+reach out from directly I'm actually
+
+777
+00:31:49,059 --> 00:31:51,559
+shockingly easy to get ahold of I do
+
+778
+00:31:51,559 --> 00:31:55,190
+ignore the vast majority of the tweets
+
+779
+00:31:55,190 --> 00:31:57,470
+that get sent to my handle just because
+
+780
+00:31:57,470 --> 00:31:59,480
+like the last time I opened the Twitter
+
+781
+00:31:59,480 --> 00:32:02,450
+app was on Friday when I was at work
+
+782
+00:32:02,450 --> 00:32:05,990
+because I don't actually Twitter because
+
+783
+00:32:05,990 --> 00:32:08,380
+I like it i twitter because it's my job
+
+784
+00:32:08,380 --> 00:32:10,700
+boo there's there's a there's a
+
+785
+00:32:10,700 --> 00:32:14,000
+bombshell confession you know if you
+
+786
+00:32:14,000 --> 00:32:15,470
+send it to my email the business
+
+787
+00:32:15,470 --> 00:32:18,169
+inquiries only email we can't we
+
+788
+00:32:18,169 --> 00:32:20,659
+actually cannot reply to every email
+
+789
+00:32:20,659 --> 00:32:23,690
+that comes to that we reply to the
+
+790
+00:32:23,690 --> 00:32:25,640
+business inquiries what we do do though
+
+791
+00:32:25,640 --> 00:32:27,289
+is read them all so if there's something
+
+792
+00:32:27,289 --> 00:32:29,330
+that we are getting a ton of messages
+
+793
+00:32:29,330 --> 00:32:31,580
+about then we will address it in some
+
+794
+00:32:31,580 --> 00:32:33,559
+other way I just mean we're easy to get
+
+795
+00:32:33,559 --> 00:32:34,640
+in touch with even if you don't
+
+796
+00:32:34,640 --> 00:32:38,270
+necessarily get a response and hopefully
+
+797
+00:32:38,270 --> 00:32:39,320
+we've demonstrated
+
+798
+00:32:39,320 --> 00:32:43,130
+so that's unless Nikki's got something
+
+799
+00:32:43,130 --> 00:32:44,390
+else urgent that he feels like I need to
+
+800
+00:32:44,390 --> 00:32:46,340
+address I'm not a legal professional
+
+801
+00:32:46,340 --> 00:32:47,330
+Thank You Nick
+
+802
+00:32:47,330 --> 00:32:49,610
+that's very very helpful for me to point
+
+803
+00:32:49,610 --> 00:32:51,260
+out to everyone that's all I've got to
+
+804
+00:32:51,260 --> 00:32:53,420
+say on the subject there's no doubt that
+
+805
+00:32:53,420 --> 00:32:56,480
+drama sells and I'm not above monetizing
+
+806
+00:32:56,480 --> 00:32:57,680
+the video you guys are watching right
+
+807
+00:32:57,680 --> 00:33:00,530
+now and my if I'm gonna get sucked into
+
+808
+00:33:00,530 --> 00:33:02,870
+this thing I might as well you know make
+
+809
+00:33:02,870 --> 00:33:05,810
+a couple of shekels and you know go buy
+
+810
+00:33:05,810 --> 00:33:07,220
+some new video games to play tonight
+
+811
+00:33:07,220 --> 00:33:11,450
+while I relax but I have zero appetite
+
+812
+00:33:11,450 --> 00:33:13,700
+for continuing to follow up on this
+
+813
+00:33:13,700 --> 00:33:15,560
+I'm only even making this as a
+
+814
+00:33:15,560 --> 00:33:17,600
+standalone video rather than addressing
+
+815
+00:33:17,600 --> 00:33:19,520
+it on the LAN show because the episode
+
+816
+00:33:19,520 --> 00:33:21,860
+of the LAN show from Friday which should
+
+817
+00:33:21,860 --> 00:33:24,560
+be up and contains my response to this
+
+818
+00:33:24,560 --> 00:33:28,220
+is still down due to a technical issue
+
+819
+00:33:28,220 --> 00:33:32,330
+on youtubes end so here we are
+
+820
+00:33:32,330 --> 00:33:34,820
+fortunately YouTube streaming worked for
+
+821
+00:33:34,820 --> 00:33:38,570
+me for a continuous however however long
+
+822
+00:33:38,570 --> 00:33:40,700
+we've been live right now which is great
+
+823
+00:33:40,700 --> 00:33:42,740
+and half an hour holy crap I've been
+
+824
+00:33:42,740 --> 00:33:44,090
+doing this for half an hour okay you
+
+825
+00:33:44,090 --> 00:33:45,380
+know what it's family day let me go
+
+826
+00:33:45,380 --> 00:33:46,550
+spend some time with my kids hopefully
+
+827
+00:33:46,550 --> 00:33:48,380
+you guys have a fantastic rest of your
+
+828
+00:33:48,380 --> 00:33:51,230
+weekend or long weekend or or whatever
+
+829
+00:33:51,230 --> 00:33:55,160
+else it is that you guys are up to see
+
+830
+00:33:55,160 --> 00:33:57,000
+ya

@@ -8,6 +8,53 @@
   <meta name="description" content="Sublink Test">
   <meta name="author" content="dannyarnold.com">
 <style>
+.onScreenTitles {
+    position:absolute;
+    font-size: 35px;
+    width: 780px;
+    height: 45px;
+    color: rgb(230, 200, 98);
+    border:solid;
+    background-color:rgba(0, 0, 0, 0.7);
+    z-index:1;
+    top:490px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 10px;  
+}
+.transcript{
+
+    text-align: center;
+    position:absolute;
+    font-size: 18px;
+    width: 400px;
+    height: 45px;
+    color: rgb(0, 0, 0);
+   
+    background-color:rgba(219, 219, 219, 0.7);
+    z-index:1;
+    top:580px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 10px;
+
+}
+.timestamp{
+
+    position:absolute;
+    font-size: 25px;
+    width: 150px;
+    height: 35px;
+    color: rgb(255, 0, 0);
+    border:solid;
+    z-index:1;
+    top:490px;
+    left: 100px;
+    right: 100px;   
+    padding: 10px; 
+}
 video {
     z-index:-1;
 }
@@ -15,43 +62,32 @@ video {
     color:tomato;
     
 }
-#srt {
-    position:absolute;
-    color: rgb(230, 200, 98);
-    z-index:1;      
-}
-#timeStamp {
-    position:absolute;
-    color: rgb(255, 0, 242);
-    z-index:1;      
-}
+a{
 
+    color: rgb(243, 234, 236);
+}
 
 </style>
 </head>
 
 <body>
     <div style="text-align:center">
-            <div id="srt">--------------------------------------SUBTEXT (c)dannyarnold.com 2019 <a href="github.com">GITHUB</a></div> 
-            <div id="timeStamp">0:0:0:000</div> 
+            <div id="srt" class='onScreenTitles'>sublink (c)dannyarnold.com 2019 <a href="https://github.com/pinnet/sublink">github</a></div> 
+            <div id="timeStamp" class='timestamp'>0:0:0:000</div> 
+        <div id='controls'>
         <button onclick="playPause()">Play/Pause</button> 
         <button onclick="makeBig()">Big</button>
         <button onclick="makeSmall()">Small</button>
-        <button onclick="makeNormal()">Normal</button>
+        <button onclick="makeNormal()">Normal</button> </div>
         <br><br>
-        <video id="myVideo" width="800" controls=true>
-          <source src="https://www.radiantmediaplayer.com/media/bbb-360p.mp4" type="video/mp4">
-          
+        <video id="myVideo" width="800" controls="true" >
+          <source src="Addressing the Drama.mp4" type="video/mp4">
           Your browser does not support HTML5 video.
         </video>
       </div>
       
       <script>
-
-        var vid = document.getElementById("myVideo");
-        vid.focus();
-        var timecode = 0;
-
+        
         function playPause(){
                 
         vid.play();
@@ -71,8 +107,6 @@ video {
       </script>
     
     <div id="transcript"></div>
-    
-    <p>Video courtesy of <a href="https://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.</p>
     <script src="sublink.js"></script>
 </body>
 </html>

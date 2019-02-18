@@ -1,99 +1,161 @@
 //            Sublink ver 0.1.A
 
 // set up config
+
 var video = "myVideo";
-var url = "test.srt";
+var srtfile = "linus.srt";
 var hyperlist = "hyperlist.json";
+
+var OnScreenTitles = true;
+var ShowDropDown = true;
+var ShowTimeStamp = false;
+var ShowControls = false;
+var linkmatch_regex = /\{\d{1,4}\}/gmi;
+
+//-----------------------------------------------------------------------------------------
 var tick = 0 ;
 var ticking = false;
 var srt = document.getElementById("srt");
 var transcript = document.getElementById("transcript");
 var timeStamp = document.getElementById("timeStamp");
-var options = document.getElementById("opts");
+var controls = document.getElementById("controls");
+var paused = false;
+var titlestart =[] ;
+var titlestop = [] ;
+var lastStop = 0;
+var lastStart = 0; 
+let linklist;
 
-var current = 0;
-var loaded = false;
+if (OnScreenTitles) srt.style.display = "block";
+else srt.style.display = "none";
+if (ShowDropDown) transcript.style.display = "block";
+else transcript.style.display = "none";
+if (ShowTimeStamp) timeStamp.style.display = "block";
+else timeStamp.style.display = "none";
+if (ShowControls) controls.style.display = "block";
+else controls.style.display = "none";
 
-async function getLinks(path, callback) {
-    return callback(await fetch(path).then(r => r.json()));
-}
 
-getLinks(hyperlist, function(info){
 
-    var subs = "";
-    var promise1 = new Promise(function(resolve, reject) {
-    const Http = new XMLHttpRequest();
-    Http.open("GET", url);
-    Http.send();
+async function wrangleSubs(){
 
-    Http.onreadystatechange=(e)=>{
-    
-    if (Http.readyState == 4) {
-            var lines = Http.responseText.split(/\s\s/g);
-            var stop = [];
-            var stop = [];
-            subs = "<select id= 'opts' onchange='selected(this.value)'><option value = '00:00:00,000' selected>  SUBTEXT (C) dannyarnold.com 2019  </option>";
-            for (x = 0; x < lines.length; x ++){
+    let linkres = await fetch(hyperlist);
+    linklist = await linkres.json();
+    let subtitles = await fetch(srtfile).then(function(response){
+        return response.text();
+    });
+    var index = 0; 
+    var lines = subtitles.split(/\s\s/g);
+    subs = "<select id='opts' class = 'transcript' onchange='selected(this.value)'><option value = '00:00:00,000'> SUBLINK (C) dannyarnold.com 2019  </option>";
+    for (x = 0; x < lines.length; x ++){
+        if (lines[x].length != 0)
+        if (lines[x].match(/\d{1,4}$/g) )
+        {
+            if (lines[x].match(/\d{1,2}:\d{1,2}:\d{1,2}/g) ) {
+                titlestart[index] = tsToTick(lines[x].substring(0,12));
+                titlestop[index]  = tsToTick(lines[x].substring(17,17 + 12));
+                //console.log(index.toString() + "-" + titlestart[index]);
+                index ++;
 
-                if (lines[x].length != 0)
-                if (lines[x].match(/\d{1,4}$/g) )
-                {
-                    if (lines[x].match(/\d{1,2}:\d{1,2}:\d{1,2}/g) ) {
-                        start[x] = tsToTick(lines[x].substring(0,12));
-                        stop[x]  = tsToTick(lines[x].substring(17,17 + 12));
-                        subs += "<option value = '"+ lines[x] + "'>";
-                    }
-                    else {
-                        if(x > 1) subs += "</option>";
-                    }
-                }
-                else {
-                      subs += lines[x] + " ";
-                }
+                subs += "<option value = '"+ lines[x].substring(0,12) + "'>";
             }
-            subs += "</select>";
-            resolve(subs);
+            else {
+                if(x > 1) subs += "</option>";
+            }
+
+        }
+        else {
+            subs += parseLinks(linklist,lines[x]);
         }
     }
-    });
-
-    promise1.then(function (subs){
-        subs += "</select>";
-        transcript.innerHTML = subs;
-        loaded = true;
-     }); 
-
-});
-
- 
-function advanceFrame(){
-    tick = tick + 10;
-    
-    if (loaded){
-        
-        console.log(stop[current]);
-        
-    }
+    subs += "</select>";
+    transcript.innerHTML = subs;
 }
 
+wrangleSubs();
 
-// display subtitles
+function parseLinks(linkArray,line){
+    var ret = "";
+    for (i in linkArray.Search){
+        
+        match = linkArray.Search[i];
+        matches = line.match(new RegExp(match));
+        if (matches != null) {
+            buff = line;
+            fragments = buff.split(match);
+            line = fragments[0] + match +"{" + i.toString() + "}"  + fragments[1];
+        }
+    }
+    return line;
+}
+
+function checkTime(mill){
+     return mill >= tick;
+}
+
 var timer = setInterval(function(){ 
-    if (ticking){ advanceFrame();}
-    timeStamp.innerHTML = tickToTS(tick);
+    
+    if (ticking){ 
+        syncVideo();
+        timeStamp.innerHTML = tickToTS(tick);
+        
+        stopidx = titlestop.findIndex(checkTime);
+        if (stopidx != lastStop) {
+            lastStop = stopidx;
+            srt.innerHTML = "";
+            
+        }
+        startidx = titlestart.findIndex(checkTime);
+        if (startidx != lastStart) {
+            lastStart = startidx;
+            x = document.getElementById("opts").selectedIndex = startidx;
+
+            buff = document.getElementById("opts").options[startidx].text;
+            
+            matches = buff.match(linkmatch_regex);
+            if (matches != null){
+                
+                var link = linklist.Link[parseInt(matches)];
+                var linktext = linklist.Search[parseInt(matches)];
+
+
+
+                buff.replace(matchterm,"<a href='"+ link +">"+ linktext +"</a>");
+                
+
+
+                srt.innerHTML = 
+                console.log(matches);
+            }else{
+            srt.innerHTML = buff;
+            }
+        }    
+    }
 }, 10);
 
 var vid = document.getElementById(video);
 
-vid.onplay = function() {
-    
-    ticking = true;
+srt.addEventListener('click', function (event) {
 
+    if (paused){
+        vid.play();
+        paused=false;
+    } else { 
+        vid.pause();
+        paused=true;
+    }
+});
+
+function syncVideo(){
+    tick =  Math.floor(vid.currentTime * 1000);
+}
+
+vid.onplay = function() {
+    ticking = true;
 }
 
 vid.onpause = function() {
-
-        ticking = false;
+    ticking = false;
 }
 
 vid.onseeking = function(){
@@ -101,10 +163,7 @@ vid.onseeking = function(){
 }
 
 function selected(time){
-
     vid.currentTime = tsToTick(time) / 1000;
-    console.log(time);
-    console.log(tsToTick(time));
 }
 function tickToTS(tick){
     var result = "";
