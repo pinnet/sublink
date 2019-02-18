@@ -10,7 +10,7 @@
 <style>
 .onScreenTitles {
     position:absolute;
-    font-size: 35px;
+    font-size: 31px;
     width: 780px;
     height: 45px;
     color: rgb(230, 200, 98);
@@ -72,37 +72,46 @@ a{
 
 <body>
     <div style="text-align:center">
-            <div id="srt" class='onScreenTitles'>sublink (c)dannyarnold.com 2019 <a href="https://github.com/pinnet/sublink">github</a></div> 
-            <div id="timeStamp" class='timestamp'>0:0:0:000</div> 
+
+        
+        <div id="timeStamp" class='timestamp'>0:0:0:000</div> 
         <div id='controls'>
-        <button onclick="playPause()">Play/Pause</button> 
-        <button onclick="makeBig()">Big</button>
-        <button onclick="makeSmall()">Small</button>
-        <button onclick="makeNormal()">Normal</button> </div>
+        <button onclick="playPause()"></button> 
+        <button onclick="back()">Back</button>
+        <button onclick="forward()">Forward</button>
+        <button onclick="stop()">STOP</button> </div>
         <br><br>
         <video id="myVideo" width="800" controls="true" >
           <source src="Addressing the Drama.mp4" type="video/mp4">
           Your browser does not support HTML5 video.
         </video>
-      </div>
+        <div id="srt" class='onScreenTitles'>sublink (c)dannyarnold.com 2019 <a href="https://github.com/pinnet/sublink">github</a></div> 
+
+    </div>
       
       <script>
-        
+        var vid = document.getElementById("video");
+        var paused = false;
+
         function playPause(){
                 
-        vid.play();
+            if(paused){    
+                paused = false;
+                vid.play();}
+            else{
+                
+                vid.pause();}
         }
-        function makeBig(){
+        function back(){
 
             vid.requestFullscreen();
         }   
-        function makeNormal(){
+        function forward(){
 
-            vid.pause();
+            
         }
-        function makeSmall(){
-
-        alert("The video has begun");
+        function stop(){
+            vid.pause();
         }
       </script>
     

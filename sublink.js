@@ -8,7 +8,7 @@ var hyperlist = "hyperlist.json";
 
 var OnScreenTitles = true;
 var ShowDropDown = true;
-var ShowTimeStamp = false;
+var ShowTimeStamp = true;
 var ShowControls = false;
 var linkmatch_regex = /\{\d{1,4}\}/gmi;
 
@@ -46,7 +46,7 @@ async function wrangleSubs(){
     });
     var index = 0; 
     var lines = subtitles.split(/\s\s/g);
-    subs = "<select id='opts' class = 'transcript' onchange='selected(this.value)'><option value = '00:00:00,000'> SUBLINK (C) dannyarnold.com 2019  </option>";
+    subs = "<select id='opts' class = 'transcript' onchange='selected(this.value)'><option value = '00:00:00,000'>Transcript</option>";
     for (x = 0; x < lines.length; x ++){
         if (lines[x].length != 0)
         if (lines[x].match(/\d{1,4}$/g) )
@@ -54,15 +54,13 @@ async function wrangleSubs(){
             if (lines[x].match(/\d{1,2}:\d{1,2}:\d{1,2}/g) ) {
                 titlestart[index] = tsToTick(lines[x].substring(0,12));
                 titlestop[index]  = tsToTick(lines[x].substring(17,17 + 12));
-                //console.log(index.toString() + "-" + titlestart[index]);
+                console.log(index.toString() + "-" + titlestart[index]);
                 index ++;
-
                 subs += "<option value = '"+ lines[x].substring(0,12) + "'>";
             }
             else {
                 if(x > 1) subs += "</option>";
             }
-
         }
         else {
             subs += parseLinks(linklist,lines[x]);
@@ -75,7 +73,7 @@ async function wrangleSubs(){
 wrangleSubs();
 
 function parseLinks(linkArray,line){
-    var ret = "";
+    
     for (i in linkArray.Search){
         
         match = linkArray.Search[i];
@@ -114,27 +112,35 @@ var timer = setInterval(function(){
             
             matches = buff.match(linkmatch_regex);
             if (matches != null){
-                
-                var link = linklist.Link[parseInt(matches)];
-                var linktext = linklist.Search[parseInt(matches)];
 
-
-
-                buff.replace(matchterm,"<a href='"+ link +">"+ linktext +"</a>");
-                
-
-
-                srt.innerHTML = 
-                console.log(matches);
+                var index = matches.toString();
+                index = index.substring(1);
+                index = index.substring(-1);
+                index = parseInt(index)
+                var link = linklist.Link[index];
+                var linktext = linklist.Search[index];
+                var hyperText = buff.replace(linktext+matches,"<a id='_link' href='"+ link +"' target='_blank' >"+ linktext +"</a>");
+                srt.innerHTML = hyperText;
+                var linktarget = document.getElementById('_link');
+                linktarget.addEventListener('mouseenter',function (event) {
+                    document.getElementById("_link").style.color = "orange";
+                });
+                linktarget.addEventListener('mouseleave',function (event) {
+                    document.getElementById("_link").style.color = "white";
+                });
+                console.log(link);
+               
             }else{
+            
             srt.innerHTML = buff;
-            }
-        }    
+        }    }
     }
 }, 10);
 
 var vid = document.getElementById(video);
 
+/*
+*/
 srt.addEventListener('click', function (event) {
 
     if (paused){
@@ -145,10 +151,6 @@ srt.addEventListener('click', function (event) {
         paused=true;
     }
 });
-
-function syncVideo(){
-    tick =  Math.floor(vid.currentTime * 1000);
-}
 
 vid.onplay = function() {
     ticking = true;
@@ -194,10 +196,6 @@ function tsToTick(TS){
     mils += 6000000 * parseInt(segs[0]);
     return mils;
 }
-
-function offset(el) {
-    var rect = el.getBoundingClientRect(),
-    scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
-    scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-    return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
+function syncVideo(){
+    tick =  Math.floor(vid.currentTime * 1000);
 }
