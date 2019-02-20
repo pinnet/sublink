@@ -1,4 +1,9 @@
-//            Sublink ver 0.1.A
+// ---------------------------------------- Sublink ver 0.1.A
+// (C) dannyarnold.com
+// Relesed under the MIT licence www.dannyarnold.com/sublinked/LICENCE
+// 
+
+
 
 // set up config
 
@@ -9,15 +14,17 @@ var hyperlist = "hyperlist.json";
 var OnScreenTitles = true;
 var ShowDropDown = true;
 var ShowTimeStamp = true;
-var ShowControls = false;
+var ShowControls = true;
+var AutoTransript = false;
 var linkmatch_regex = /\{\d{1,4}\}/gmi;
 
 //-----------------------------------------------------------------------------------------
 var tick = 0 ;
 var ticking = false;
-var srt = document.getElementById("srt");
+var titles = document.getElementById("titles");
 var transcript = document.getElementById("transcript");
-var timeStamp = document.getElementById("timeStamp");
+var reference = document.getElementById("reference");
+var timeStamp = document.getElementById("timestamp");
 var controls = document.getElementById("controls");
 var paused = false;
 var titlestart =[] ;
@@ -26,7 +33,7 @@ var lastStop = 0;
 var lastStart = 0; 
 let linklist;
 
-if (OnScreenTitles) srt.style.display = "block";
+if (OnScreenTitles) titles.style.display = "block";
 else srt.style.display = "none";
 if (ShowDropDown) transcript.style.display = "block";
 else transcript.style.display = "none";
@@ -34,8 +41,8 @@ if (ShowTimeStamp) timeStamp.style.display = "block";
 else timeStamp.style.display = "none";
 if (ShowControls) controls.style.display = "block";
 else controls.style.display = "none";
-
-
+if (ShowControls) reference.style.display = "block";
+else controls.style.display = "none";
 
 async function wrangleSubs(){
 
@@ -54,7 +61,7 @@ async function wrangleSubs(){
             if (lines[x].match(/\d{1,2}:\d{1,2}:\d{1,2}/g) ) {
                 titlestart[index] = tsToTick(lines[x].substring(0,12));
                 titlestop[index]  = tsToTick(lines[x].substring(17,17 + 12));
-                console.log(index.toString() + "-" + titlestart[index]);
+                //console.log(index.toString() + "-" + titlestart[index]);
                 index ++;
                 subs += "<option value = '"+ lines[x].substring(0,12) + "'>";
             }
@@ -68,6 +75,12 @@ async function wrangleSubs(){
     }
     subs += "</select>";
     transcript.innerHTML = subs;
+    refs = document.getElementById("reference");
+    refs.innerHTML = "<h2>Reference</h2>" 
+    for (i in linklist.Link){
+
+        refs.innerHTML += "{" + i.toString() +"}" + "<a href='"+linklist.Link[i]+"'>" +linklist.Link[i] + "</a><BR>";
+    }
 }
 
 wrangleSubs();
@@ -75,7 +88,7 @@ wrangleSubs();
 function parseLinks(linkArray,line){
     
     for (i in linkArray.Search){
-        
+        url = linkArray.Link[i];
         match = linkArray.Search[i];
         matches = line.match(new RegExp(match));
         if (matches != null) {
@@ -100,13 +113,13 @@ var timer = setInterval(function(){
         stopidx = titlestop.findIndex(checkTime);
         if (stopidx != lastStop) {
             lastStop = stopidx;
-            srt.innerHTML = "";
+            printTitle("");
             
         }
         startidx = titlestart.findIndex(checkTime);
         if (startidx != lastStart) {
             lastStart = startidx;
-            x = document.getElementById("opts").selectedIndex = startidx;
+            if(AutoTransript) x = document.getElementById("opts").selectedIndex = startidx;
 
             buff = document.getElementById("opts").options[startidx].text;
             
@@ -120,7 +133,7 @@ var timer = setInterval(function(){
                 var link = linklist.Link[index];
                 var linktext = linklist.Search[index];
                 var hyperText = buff.replace(linktext+matches,"<a id='_link' href='"+ link +"' target='_blank' >"+ linktext +"</a>");
-                srt.innerHTML = hyperText;
+                printTitle(hyperText);
                 var linktarget = document.getElementById('_link');
                 linktarget.addEventListener('mouseenter',function (event) {
                     document.getElementById("_link").style.color = "orange";
@@ -132,7 +145,7 @@ var timer = setInterval(function(){
                
             }else{
             
-            srt.innerHTML = buff;
+                printTitle(buff);
         }    }
     }
 }, 10);
@@ -141,7 +154,7 @@ var vid = document.getElementById(video);
 
 /*
 */
-srt.addEventListener('click', function (event) {
+titles.addEventListener('click', function (event) {
 
     if (paused){
         vid.play();
@@ -162,8 +175,14 @@ vid.onpause = function() {
 
 vid.onseeking = function(){
     tick =  Math.floor(vid.currentTime * 1000);
+    syncVideo();
 }
+function printTitle(title){
 
+    var titles = document.getElementById("titles");
+    titles.innerHTML = title;
+
+}
 function selected(time){
     vid.currentTime = tsToTick(time) / 1000;
 }
