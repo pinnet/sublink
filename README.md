@@ -1,5 +1,5 @@
 # sublink
-Subtitle Link javascript for content providers
+Subtitle Link java-script subtitles with a glossary of hyperlinks for content providers
 
 Design Goals for V0.1
 
@@ -10,7 +10,7 @@ Design Goals for V0.1
 5 scrubbing transport               Working.
 
     Two files required - the subtitles of the video playing in srt format.
-and a json file of the glossery of hyperlinks with keywords to match.
+    and a json file of the glossery of hyperlinks with keywords to match.
 
 Theroy of opperation:
 
