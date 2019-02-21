@@ -1,18 +1,21 @@
 # sublink
 Subtitle Link javascript for content providers
 
-Design Goals for V1
+Design Goals for V0.1
 
-1 No dependant framework
-2 Inline 
-3 Basic Config
-4 transparent windows
-5 scrubbing transport
- ? 6 CDN delivery.
+1 No dependant framework -          needs refactor to eliminate global vars
+2 Inline                            can be loaded in one script tag
+3 Basic Config                      not complete
+4 transparent windows               need to complete absolute div placement
+5 scrubbing transport               Working.
 
+    Two files required - the subtitles of the video playing in srt format.
+and a json file of the glossery of hyperlinks with keywords to match.
 
-Definition : HyperList = a list of hyperlinks 
-parse srt and insert link index  ' [0..9] ' after target word
-render hyperlink upon reading '[0..9]' 
+Theroy of opperation:
+
+During loading of the page a fetch is called on the srt file and json file, when the promices are fullfilled, build a select/option block in transcript, while parsing subtitles match json file and insert link index marker (in the form '{'index'}') after target word from the json file.
+When the video is in playback, read transcript text element when the timestamp matches and then print it to the titles element if a regex match '\{\d{1,4}\}' subsitute 
+keyword with a hypertext link around the keyword.
 
 NEW = support me on Patreon - https://www.patreon.com/dannyarnold
