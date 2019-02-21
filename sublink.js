@@ -4,45 +4,162 @@
 // 
 
 
+// ----------------------------------------------------------------------------------------------
+    var video = "myVideo";
+    var srtfile = "linus.srt";
+    var hyperlist = "hyperlist.json";
+    var tick = 0 ;
+    var ticking = false;
+    var paused = true;
+    var titlestart =[];
+    var titlestop  =[];
+    var lastStop  = 0;
+    var lastStart = 0; 
+    var AutoTransript = false;
+    var OnScreenTitles = true;
+    var ShowDropDown = true;
+    var ShowTimeStamp = true;
+    var ShowControls = true;
+    var linkmatch_regex = /\{\d{1,4}\}/gmi;
+    var subfullscn = false;
 
+    setup();
+    wrangleSubs();
+    var timer = setInterval(function(){ 
+    
+        if (ticking){ 
+            syncVideo();
+            printTimeStamp(tickToTS(tick).toString());
+            
+            stopidx = titlestop.findIndex(checkTime);
+            if (stopidx != lastStop) {
+                lastStop = stopidx;
+                printTitle("");
+                
+            }
+            startidx = titlestart.findIndex(checkTime);
+            if (startidx != lastStart) {
+                lastStart = startidx;
+                if(AutoTransript) document.getElementById("opts").selectedIndex = startidx;
+                buff = document.getElementById("opts").options[startidx].text;
+                matches = buff.match(linkmatch_regex);
+                if (matches != null){
+                    buildLinks(matches);                   
+                }else{                
+                    printTitle(buff);
+                }    
+            }
+        }
+    }, 10);
+    
+    var vid = document.getElementById(video);
+    
+    /*
+    */
+    titles.addEventListener('click', function (event) {
+    
+        if (paused){
+            vid.play();
+            paused=false;
+        } else { 
+            vid.pause();
+            paused=true;
+        }
+    });
+    
+    vid.onplay = function() {
+        ticking = true;
+    }
+    
+    vid.onpause = function() {
+        ticking = false;
+    }
+    
+    vid.onseeking = function(){
+        syncVideo();
+        vid.play();
+    }
+
+    document.addEventListener("fullscreenchange", function() {
+        if (
+            document.fullscreenElement || /* Standard syntax */
+            document.webkitFullscreenElement || /* Chrome, Safari and Opera syntax */
+            document.mozFullScreenElement ||/* Firefox syntax */
+            document.msFullscreenElement /* IE/Edge syntax */
+        ){
+            document.getElementById("titles").style.width = "88%";
+            document.getElementById("myVideo").style.width = "89%";
+        }
+        else{
+            document.getElementById("titles").style.width = "49%";
+            document.getElementById("myVideo").style.width = "50%";
+        }
+    });
+    
+    function playPause(){
+        if(paused){    
+            paused = false;
+            document.getElementById("myVideo").play();    
+        }
+        else{
+            paused = true;
+            document.getElementById("myVideo").pause();
+        }
+    }
+    function fullscreen(){
+        subfullscn = true;
+        document.getElementById("fullscreen").requestFullscreen();
+    }
+    function stop(){
+        document.getElementById("myVideo").pause();
+        paused = true;
+    }
+
+   
+//------------------------------------------------------------------------------------------------------------------------------------------------
+
+function  buildLinks(matches) {
+
+    var index = matches.toString();
+    index = index.substring(1);
+    index = index.substring(-1);
+    index = parseInt(index)
+    var link = linklist.Link[index];
+    var linktext = linklist.Search[index];
+    var hyperText = buff.replace(linktext+matches,"<a id='_link' href='"+ link +"' target='_blank' >"+ linktext +"</a>");
+    printTitle(hyperText);
+    var linktarget = document.getElementById('_link');
+    linktarget.addEventListener('mouseenter',function (event) {
+        document.getElementById("_link").style.color = "orange";
+    });
+    linktarget.addEventListener('mouseleave',function (event) {
+        document.getElementById("_link").style.color = "white";
+    });
+}
 // set up config
+function setup(){
+    //-----------------------------------------------------------------------------------------
+    
+    var titles =     document.getElementById("titles");
+    var transcript = document.getElementById("transcript");
+    var reference =  document.getElementById("reference");
+    var timeStamp =  document.getElementById("timestamp");
+    var controls =   document.getElementById("controls");
+    
+    
+    let linklist;
 
-var video = "myVideo";
-var srtfile = "linus.srt";
-var hyperlist = "hyperlist.json";
-
-var OnScreenTitles = true;
-var ShowDropDown = true;
-var ShowTimeStamp = true;
-var ShowControls = true;
-var AutoTransript = false;
-var linkmatch_regex = /\{\d{1,4}\}/gmi;
-
-//-----------------------------------------------------------------------------------------
-var tick = 0 ;
-var ticking = false;
-var titles = document.getElementById("titles");
-var transcript = document.getElementById("transcript");
-var reference = document.getElementById("reference");
-var timeStamp = document.getElementById("timestamp");
-var controls = document.getElementById("controls");
-var paused = false;
-var titlestart =[] ;
-var titlestop = [] ;
-var lastStop = 0;
-var lastStart = 0; 
-let linklist;
-
-if (OnScreenTitles) titles.style.display = "block";
-else srt.style.display = "none";
-if (ShowDropDown) transcript.style.display = "block";
-else transcript.style.display = "none";
-if (ShowTimeStamp) timeStamp.style.display = "block";
-else timeStamp.style.display = "none";
-if (ShowControls) controls.style.display = "block";
-else controls.style.display = "none";
-if (ShowControls) reference.style.display = "block";
-else controls.style.display = "none";
+    if (OnScreenTitles) titles.style.display = "block";
+    else srt.style.display = "none";
+    if (ShowDropDown) transcript.style.display = "block";
+    else transcript.style.display = "none";
+    if (ShowTimeStamp) timeStamp.style.display = "block";
+    else timeStamp.style.display = "none";
+    if (ShowControls) controls.style.display = "block";
+    else controls.style.display = "none";
+    if (ShowControls) reference.style.display = "block";
+    else controls.style.display = "none";
+}
 
 async function wrangleSubs(){
 
@@ -53,7 +170,7 @@ async function wrangleSubs(){
     });
     var index = 0; 
     var lines = subtitles.split(/\s\s/g);
-    subs = "<select id='opts' class = 'transcript' onchange='selected(this.value)'><option value = '00:00:00,000'>Transcript</option>";
+    subs = "<select id='opts' onchange='selected(this.value)'><option value = '00:00:00,000'>Transcript</option>";
     for (x = 0; x < lines.length; x ++){
         if (lines[x].length != 0)
         if (lines[x].match(/\d{1,4}$/g) )
@@ -73,7 +190,7 @@ async function wrangleSubs(){
             subs += parseLinks(linklist,lines[x]);
         }
     }
-    subs += "</select>";
+    subs += "</select><input type='checkbox' id='Auto' value='Auto' onchange='isChecked(this)'>Auto";
     transcript.innerHTML = subs;
     refs = document.getElementById("reference");
     refs.innerHTML = "<h2>Reference</h2>" 
@@ -83,10 +200,7 @@ async function wrangleSubs(){
     }
 }
 
-wrangleSubs();
-
 function parseLinks(linkArray,line){
-    
     for (i in linkArray.Search){
         url = linkArray.Link[i];
         match = linkArray.Search[i];
@@ -99,92 +213,26 @@ function parseLinks(linkArray,line){
     }
     return line;
 }
-
 function checkTime(mill){
      return mill >= tick;
 }
-
-var timer = setInterval(function(){ 
-    
-    if (ticking){ 
-        syncVideo();
-        timeStamp.innerHTML = tickToTS(tick);
-        
-        stopidx = titlestop.findIndex(checkTime);
-        if (stopidx != lastStop) {
-            lastStop = stopidx;
-            printTitle("");
-            
-        }
-        startidx = titlestart.findIndex(checkTime);
-        if (startidx != lastStart) {
-            lastStart = startidx;
-            if(AutoTransript) x = document.getElementById("opts").selectedIndex = startidx;
-
-            buff = document.getElementById("opts").options[startidx].text;
-            
-            matches = buff.match(linkmatch_regex);
-            if (matches != null){
-
-                var index = matches.toString();
-                index = index.substring(1);
-                index = index.substring(-1);
-                index = parseInt(index)
-                var link = linklist.Link[index];
-                var linktext = linklist.Search[index];
-                var hyperText = buff.replace(linktext+matches,"<a id='_link' href='"+ link +"' target='_blank' >"+ linktext +"</a>");
-                printTitle(hyperText);
-                var linktarget = document.getElementById('_link');
-                linktarget.addEventListener('mouseenter',function (event) {
-                    document.getElementById("_link").style.color = "orange";
-                });
-                linktarget.addEventListener('mouseleave',function (event) {
-                    document.getElementById("_link").style.color = "white";
-                });
-                console.log(link);
-               
-            }else{
-            
-                printTitle(buff);
-        }    }
-    }
-}, 10);
-
-var vid = document.getElementById(video);
-
-/*
-*/
-titles.addEventListener('click', function (event) {
-
-    if (paused){
-        vid.play();
-        paused=false;
-    } else { 
-        vid.pause();
-        paused=true;
-    }
-});
-
-vid.onplay = function() {
-    ticking = true;
-}
-
-vid.onpause = function() {
-    ticking = false;
-}
-
-vid.onseeking = function(){
-    tick =  Math.floor(vid.currentTime * 1000);
-    syncVideo();
+function printTimeStamp(time){
+    var stamp = document.getElementById("timestamp");
+    stamp.innerHTML = time;
 }
 function printTitle(title){
-
     var titles = document.getElementById("titles");
     titles.innerHTML = title;
-
 }
 function selected(time){
     vid.currentTime = tsToTick(time) / 1000;
+}
+function isChecked(box){
+    if(box.checked == true){
+        AutoTransript = true;   
+    }    else {
+        AutoTransript = false;   
+    }
 }
 function tickToTS(tick){
     var result = "";

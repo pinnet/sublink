@@ -1,106 +1,30 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <title>SubLink v0.1a (C)dannyarnold.com 2019</title>
   <meta name="description" content="Sublink Test">
   <meta name="author" content="dannyarnold.com">
-
-<style>
-.content{
-    padding: 0 0 0 0;
-    margin: 0 0 0 0;
-    text-align: center;
-}
-.onScreenTitles {
-    font-size: 40px;
-    width: 780px;
-    height: 45px;
-    color: rgb(230, 200, 98);
-    border:solid;
-    background-color:rgba(0, 0, 0, 0.7);
-    z-index:1;
-    top:0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    padding: 10px;
-}
-#transcript{
-    text-align: left;
-    font-size: 18px;
-}
-#timestamp{
-    font-size: 20px;
-}
-#reference {
-    text-align: left;
-}
-a{
-
-    color: rgb(29, 66, 189);
-}
-video {
-    z-index:-1;
-    border:solid;
-    top:0;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-
-</style>
+  <link rel="stylesheet" type="text/css" href="sublink.css">
 </head>
-
 <body>
     <div class="content">
-
-        
-        <div id='controls'>
-            <button onclick="playPause()">Play/Pause</button> 
-            <button onclick="back()">Back</button>
-            <button onclick="forward()">Forward</button>
-            <button onclick="stop()">STOP</button> 
+        <div id='fullscreen'>
+            <video id="myVideo" controls="true">
+            <source src="Addressing the Drama.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+            </video>
+            <div id="titles" class='onScreenTitles'>sublink (c)dannyarnold.com 2019 <a href="https://github.com/pinnet/sublink">github</a></div> 
         </div>
-        <video id="myVideo" width="800" controls="true" >
-          <source src="Addressing the Drama.mp4" type="video/mp4">
-          Your browser does not support HTML5 video.
-        </video>
-        <div id="titles" class='onScreenTitles'>sublink (c)dannyarnold.com 2019 <a href="https://github.com/pinnet/sublink">github</a></div> 
+        <div id='controls'>
+                <button onclick="playPause()">Play/Pause</button> 
+                <button onclick="stop()">STOP</button>
+                <button onclick="fullscreen()">Fullscreen</button> 
+        </div>
         <div id="timestamp">0:0:0:000</div> 
         <div id="transcript"></div>
         <div id="reference"></div>
     </div>
-      
-      <script>
-        var vid = document.getElementById("myVideo");
-        var paused = true;
-
-        function playPause(){
-            alert(paused);        
-            if(paused){    
-                paused = false;
-                vid.play();}
-            else{
-                pause = true;
-                vid.pause();}
-        }
-        function back(){
-
-            vid.requestFullscreen();
-        }   
-        function forward(){
-
-            
-        }
-        function stop(){
-            vid.pause();
-        }
-      </script>
-    
-    
-    
     <script src="sublink.js"></script>
 </body>
 </html>

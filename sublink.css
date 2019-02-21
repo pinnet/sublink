@@ -1,0 +1,45 @@
+body{
+    margin: 10 0 0 0 ;
+    padding:0 0 0 0 ;
+
+
+}
+
+.content{
+    display: grid | inline-grid;
+    
+}
+.onScreenTitles {
+    font-size: 32px;
+    width: 48%;
+    height: 45px;
+    color: rgb(230, 200, 98);
+    border:solid;
+    border-width:8px;
+    background-color:rgba(0, 0, 0, 0.7);
+    z-index:1;
+    padding: 10px;
+}
+#transcript{
+    text-align: left;
+    font-size: 18px;
+}
+#timestamp{
+    font-size: 20px;
+}
+#reference {
+    text-align: left;
+}
+a{
+    color: rgb(29, 66, 189);
+}
+video {
+    width: 50%;
+    height: auto;
+    z-index:-1;
+    top:0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+}
