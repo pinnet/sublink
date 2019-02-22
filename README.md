@@ -3,18 +3,27 @@ Subtitle Link java-script subtitles with a glossary of hyperlinks for content pr
 
 Design Goals for V0.1
 
-1 No dependant framework ..................... needs refactor to eliminate global vars
+    1 No dependant framework ..................... needs refactor to eliminate global vars
+    2 Inline ..................................... can be loaded in one script tag ( with css )
+    3 Basic Config ............................... not complete
+    4 Fullscreen ................................. Fullscreen with subtitles working.
+    5 scrubbing transport ........................ Working.
 
-2 Inline ..................................... can be loaded in one script tag ( with css )
- 
-3 Basic Config ............................... not complete
+Two files required - the subtitles of the video playing in srt format. And a json file of the glossery of hyperlinks with keywords to match.
 
-4 Fullscreen ................................. Fullscreen with subtitles working.
+    hyperlink.json
+    {
+        "Country": "UK",
 
-5 scrubbing transport ........................ Working.
+        "Search": [
+                 "DMCA"
+                  ],
+        "Link": [
+          "https://en.wikipedia.org/wiki/DMCA"
+                ],
 
-    Two files required - the subtitles of the video playing in srt format.
-    and a json file of the glossery of hyperlinks with keywords to match.
+        "Version": "0.1a"
+    }
 
 Theroy of opperation:
 
