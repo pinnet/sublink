@@ -37,10 +37,11 @@ Design Goals for V0.1
     5 scrubbing transport ........................ Working.
 
 TODO:
- 
+
     remove var tick and replace with call to video.currenttime
-    slow down call back - parameterize callback time
-    classify setup to encapsulate global vars 
+    slow down setInterval callback - parameterize callback time
+    
+    rationalize subtitle font size for auto sizing  
 
 
 

@@ -5,265 +5,265 @@
 
 
 // ----------------------------------------------------------------------------------------------
-    var video = "myVideo";
-    var srtfile = "linus.srt";
-    var hyperlist = "hyperlist.json";
-    var tick = 0 ;
-    var ticking = false;
-    var paused = true;
-    var titlestart =[];
-    var titlestop  =[];
-    var lastStop  = 0;
-    var lastStart = 0; 
-    var AutoTransript = false;
-    var OnScreenTitles = true;
-    var ShowDropDown = true;
-    var ShowTimeStamp = true;
-    var ShowControls = true;
-    var linkmatch_regex = /\{\d{1,4}\}/gmi;
-    var subfullscn = false;
 
-    setup();
-    wrangleSubs();
-    var timer = setInterval(function(){ 
-    
-        if (ticking){ 
-            syncVideo();
-            printTimeStamp(tickToTS(tick).toString());
-            
-            stopidx = titlestop.findIndex(checkTime);
-            if (stopidx != lastStop) {
-                lastStop = stopidx;
-                printTitle("");
+        var video = "myVideo";
+        var srtfile = "linus.srt";
+        var hyperlist = "hyperlist.json";
+        var tick = 0 ;
+        var ticking = false;
+        var paused = true;
+        var titlestart =[];
+        var titlestop  =[];
+        var lastStop  = 0;
+        var lastStart = 0; 
+        var AutoTransript = false;
+        var OnScreenTitles = true;
+        var ShowDropDown = true;
+        var ShowTimeStamp = true;
+        var ShowControls = true;
+        var linkmatch_regex = /\{\d{1,4}\}/gmi;
+        var subfullscn = false;
+
+        setup();
+        wrangleSubs();
+      
+        var timer = setInterval(function(){ 
+        
+            if (ticking){ 
+                syncVideo();
+                printTimeStamp(tickToTS(tick).toString());
                 
+                stopidx = titlestop.findIndex(checkTime);
+                if (stopidx != lastStop) {
+                    lastStop = stopidx;
+                    printTitle("");
+                    
+                }
+                startidx = titlestart.findIndex(checkTime);
+                if (startidx != lastStart) {
+                    lastStart = startidx;
+                    if(AutoTransript) document.getElementById("opts").selectedIndex = startidx;
+                    buff = document.getElementById("opts").options[startidx].text;
+                    matches = buff.match(linkmatch_regex);
+                    if (matches != null){
+                        buildLinks(matches);                   
+                    }else{                
+                        printTitle(buff);
+                    }    
+                }
             }
-            startidx = titlestart.findIndex(checkTime);
-            if (startidx != lastStart) {
-                lastStart = startidx;
-                if(AutoTransript) document.getElementById("opts").selectedIndex = startidx;
-                buff = document.getElementById("opts").options[startidx].text;
-                matches = buff.match(linkmatch_regex);
-                if (matches != null){
-                    buildLinks(matches);                   
-                }else{                
-                    printTitle(buff);
-                }    
+        }, 10);
+        
+        var vid = document.getElementById(video);
+        
+        /*
+        */
+        titles.addEventListener('click', function (event) {
+        
+            if (paused){
+                vid.play();
+                paused=false;
+            } else { 
+                vid.pause();
+                paused=true;
             }
+        });
+        
+        vid.onplay = function() {
+            ticking = true;
         }
-    }, 10);
-    
-    var vid = document.getElementById(video);
-    
-    /*
-    */
-    titles.addEventListener('click', function (event) {
-    
-        if (paused){
+        
+        vid.onpause = function() {
+            ticking = false;
+        }
+        
+        vid.onseeking = function(){
+            syncVideo();
             vid.play();
-            paused=false;
-        } else { 
-            vid.pause();
-            paused=true;
         }
-    });
-    
-    vid.onplay = function() {
-        ticking = true;
-    }
-    
-    vid.onpause = function() {
-        ticking = false;
-    }
-    
-    vid.onseeking = function(){
-        syncVideo();
-        vid.play();
-    }
 
-    document.addEventListener("fullscreenchange", function() {
-        if (
-            document.fullscreenElement ||                 /* Standard syntax */
-            document.webkitFullscreenElement ||           /* Chrome, Safari and Opera syntax */
-            document.mozFullScreenElement ||              /* Firefox syntax */
-            document.msFullscreenElement                  /* IE/Edge syntax */ 
-                                                         // code from https://www.w3schools.com/jsref/prop_document_fullscreenelement.asp*/
-        ){
-            document.getElementById("titles").style.width = "88%";
-            document.getElementById("myVideo").style.width = "89%";
+        document.addEventListener("fullscreenchange", function() {
+            if (
+                document.fullscreenElement ||                 /* Standard syntax */
+                document.webkitFullscreenElement ||           /* Chrome, Safari and Opera syntax */
+                document.mozFullScreenElement ||              /* Firefox syntax */
+                document.msFullscreenElement                  /* IE/Edge syntax */ 
+                                                            // code from https://www.w3schools.com/jsref/prop_document_fullscreenelement.asp*/
+            ){
+                document.getElementById("titles").style.width = "88%";
+                document.getElementById("myVideo").style.width = "89%";
+            }
+            else{
+                document.getElementById("titles").style.width = "49%";
+                document.getElementById("myVideo").style.width = "50%";
+            }
+        });
+        
+        function playPause(){
+            if(paused){    
+                paused = false;
+                document.getElementById("myVideo").play();    
+            }
+            else{
+                paused = true;
+                document.getElementById("myVideo").pause();
+            }
         }
-        else{
-            document.getElementById("titles").style.width = "49%";
-            document.getElementById("myVideo").style.width = "50%";
+        function fullscreen(){
+            subfullscn = true;
+            document.getElementById("fullscreen").requestFullscreen();
         }
-    });
-    
-    function playPause(){
-        if(paused){    
-            paused = false;
-            document.getElementById("myVideo").play();    
-        }
-        else{
-            paused = true;
+        function stop(){
             document.getElementById("myVideo").pause();
+            paused = true;
         }
-    }
-    function fullscreen(){
-        subfullscn = true;
-        document.getElementById("fullscreen").requestFullscreen();
-    }
-    function stop(){
-        document.getElementById("myVideo").pause();
-        paused = true;
-    }
 
-   
-//------------------------------------------------------------------------------------------------------------------------------------------------
-
-function  buildLinks(matches) {
-
-    var index = matches.toString();
-    index = index.substring(1);
-    index = index.substring(-1);
-    index = parseInt(index)
-    var link = linklist.Link[index];
-    var linktext = linklist.Search[index];
-    var hyperText = buff.replace(linktext+matches,"<a id='_link' href='"+ link +"' target='_blank' >"+ linktext +"</a>");
-    printTitle(hyperText);
-    var linktarget = document.getElementById('_link');
-    linktarget.addEventListener('mouseenter',function (event) {
-        document.getElementById("_link").style.color = "orange";
-    });
-    linktarget.addEventListener('mouseleave',function (event) {
-        document.getElementById("_link").style.color = "white";
-    });
-}
-// set up config
-function setup(){
-    //-----------------------------------------------------------------------------------------
     
-    var titles =     document.getElementById("titles");
-    var transcript = document.getElementById("transcript");
-    var reference =  document.getElementById("reference");
-    var timeStamp =  document.getElementById("timestamp");
-    var controls =   document.getElementById("controls");
-    
-    
-    let linklist;
+    //------------------------------------------------------------------------------------------------------------------------------------------------
 
-    if (OnScreenTitles) titles.style.display = "block";
-    else srt.style.display = "none";
-    if (ShowDropDown) transcript.style.display = "block";
-    else transcript.style.display = "none";
-    if (ShowTimeStamp) timeStamp.style.display = "block";
-    else timeStamp.style.display = "none";
-    if (ShowControls) controls.style.display = "block";
-    else controls.style.display = "none";
-    if (ShowControls) reference.style.display = "block";
-    else controls.style.display = "none";
-}
+    function  buildLinks(matches) {
 
-async function wrangleSubs(){
+        var index = matches.toString();
+        index = index.substring(1);
+        index = index.substring(-1);
+        index = parseInt(index)
+        var link = linklist.Link[index];
+        var linktext = linklist.Search[index];
+        var hyperText = buff.replace(linktext+matches,"<a id='_link' href='"+ link +"' target='_blank' >"+ linktext +"</a>");
+        printTitle(hyperText);
+        var linktarget = document.getElementById('_link');
+        linktarget.addEventListener('mouseenter',function (event) {
+            document.getElementById("_link").style.color = "orange";
+        });
+        linktarget.addEventListener('mouseleave',function (event) {
+            document.getElementById("_link").style.color = "white";
+        });
+    }
+    // set up config
+    function setup(){
+        //-----------------------------------------------------------------------------------------
+        
+        var titles =     document.getElementById("titles");
+        var transcript = document.getElementById("transcript");
+        var reference =  document.getElementById("reference");
+        var timeStamp =  document.getElementById("timestamp");
+        var controls =   document.getElementById("controls");
 
-    let linkres = await fetch(hyperlist);
-    linklist = await linkres.json();
-    let subtitles = await fetch(srtfile).then(function(response){
-        return response.text();
-    });
-    var index = 0; 
-    var lines = subtitles.split(/\s\s/g);
-    subs = "<select id='opts' onchange='selected(this.value)'><option value = '00:00:00,000'>Transcript</option>";
-    for (x = 0; x < lines.length; x ++){
-        if (lines[x].length != 0)
-        if (lines[x].match(/\d{1,4}$/g) )
-        {
-            if (lines[x].match(/\d{1,2}:\d{1,2}:\d{1,2}/g) ) {
-                titlestart[index] = tsToTick(lines[x].substring(0,12));
-                titlestop[index]  = tsToTick(lines[x].substring(17,17 + 12));
-                //console.log(index.toString() + "-" + titlestart[index]);
-                index ++;
-                subs += "<option value = '"+ lines[x].substring(0,12) + "'>";
+        if (OnScreenTitles) titles.style.display = "block";
+        else srt.style.display = "none";
+        if (ShowDropDown) transcript.style.display = "block";
+        else transcript.style.display = "none";
+        if (ShowTimeStamp) timeStamp.style.display = "block";
+        else timeStamp.style.display = "none";
+        if (ShowControls) controls.style.display = "block";
+        else controls.style.display = "none";
+        if (ShowControls) reference.style.display = "block";
+        else controls.style.display = "none";
+    }
+
+    async function wrangleSubs(){
+
+        let linkres = await fetch(hyperlist);
+        linklist = await linkres.json();
+        let subtitles = await fetch(srtfile).then(function(response){
+            return response.text();
+        });
+        var index = 0; 
+        var lines = subtitles.split(/\s\s/g);
+        subs = "<select id='opts' onchange='selected(this.value)'><option value = '00:00:00,000'>Transcript</option>";
+        for (x = 0; x < lines.length; x ++){
+            if (lines[x].length != 0)
+            if (lines[x].match(/\d{1,4}$/g) )
+            {
+                if (lines[x].match(/\d{1,2}:\d{1,2}:\d{1,2}/g) ) {
+                    titlestart[index] = tsToTick(lines[x].substring(0,12));
+                    titlestop[index]  = tsToTick(lines[x].substring(17,17 + 12));
+                    //console.log(index.toString() + "-" + titlestart[index]);
+                    index ++;
+                    subs += "<option value = '"+ lines[x].substring(0,12) + "'>";
+                }
+                else {
+                    if(x > 1) subs += "</option>";
+                }
             }
             else {
-                if(x > 1) subs += "</option>";
+                subs += parseLinks(linklist,lines[x]);
             }
         }
-        else {
-            subs += parseLinks(linklist,lines[x]);
+        subs += "</select><input type='checkbox' id='Auto' value='Auto' onchange='isChecked(this)'>Auto";
+        transcript.innerHTML = subs;
+        refs = document.getElementById("reference");
+        refs.innerHTML = "<h2>Reference</h2>" 
+        for (i in linklist.Link){
+
+            refs.innerHTML += "{" + i.toString() +"}" + "<a href='"+linklist.Link[i]+"'>" +linklist.Link[i] + "</a><BR>";
         }
     }
-    subs += "</select><input type='checkbox' id='Auto' value='Auto' onchange='isChecked(this)'>Auto";
-    transcript.innerHTML = subs;
-    refs = document.getElementById("reference");
-    refs.innerHTML = "<h2>Reference</h2>" 
-    for (i in linklist.Link){
 
-        refs.innerHTML += "{" + i.toString() +"}" + "<a href='"+linklist.Link[i]+"'>" +linklist.Link[i] + "</a><BR>";
+    function parseLinks(linkArray,line){
+        for (i in linkArray.Search){
+            url = linkArray.Link[i];
+            match = linkArray.Search[i];
+            matches = line.match(new RegExp(match));
+            if (matches != null) {
+                buff = line;
+                fragments = buff.split(match);
+                line = fragments[0] + match +"{" + i.toString() + "}"  + fragments[1];
+            }
+        }
+        return line;
     }
-}
-
-function parseLinks(linkArray,line){
-    for (i in linkArray.Search){
-        url = linkArray.Link[i];
-        match = linkArray.Search[i];
-        matches = line.match(new RegExp(match));
-        if (matches != null) {
-            buff = line;
-            fragments = buff.split(match);
-            line = fragments[0] + match +"{" + i.toString() + "}"  + fragments[1];
+    function checkTime(mill){
+        return mill >= tick;
+    }
+    function printTimeStamp(time){
+        var stamp = document.getElementById("timestamp");
+        stamp.innerHTML = time;
+    }
+    function printTitle(title){
+        var titles = document.getElementById("titles");
+        titles.innerHTML = title;
+    }
+    function selected(time){
+        vid.currentTime = tsToTick(time) / 1000;
+    }
+    function isChecked(box){
+        if(box.checked == true){
+            AutoTransript = true;   
+        }    else {
+            AutoTransript = false;   
         }
     }
-    return line;
-}
-function checkTime(mill){
-     return mill >= tick;
-}
-function printTimeStamp(time){
-    var stamp = document.getElementById("timestamp");
-    stamp.innerHTML = time;
-}
-function printTitle(title){
-    var titles = document.getElementById("titles");
-    titles.innerHTML = title;
-}
-function selected(time){
-    vid.currentTime = tsToTick(time) / 1000;
-}
-function isChecked(box){
-    if(box.checked == true){
-        AutoTransript = true;   
-    }    else {
-        AutoTransript = false;   
-    }
-}
-function tickToTS(tick){
-    var result = "";
-    
-    mill = tick % 1000;
-    secs  = Math.floor(tick / 1000) % 60;
-    mins = Math.floor(tick / 60000) % 60;
-    hrs = Math.floor(tick / 6000000) % 60;
+    function tickToTS(tick){
+        var result = "";
+        
+        mill = tick % 1000;
+        secs  = Math.floor(tick / 1000) % 60;
+        mins = Math.floor(tick / 60000) % 60;
+        hrs = Math.floor(tick / 6000000) % 60;
 
-    result = hrs.toString().padStart(2,'0');
-    result += ":";
-    result += mins.toString().padStart(2,'0') ;
-    result += ":";
-    result += secs.toString().padStart(2,'0'); 
-    result += ","; 
-    result += mill.toString().padStart(3,'0');
-    return result ;//+ ":" + tsToTick(result).toString() + ":" + tick.toString();
-}
-function tsToTick(TS){
-    var result = 0;
-    var lines = TS.split(',');
-    var segs = lines[0].split(':');
-    var mils = 0;
-    
-    mils = parseInt(lines[1]);
-    mils += 1000 * parseInt(segs[2]);
-    mils += 60000 * parseInt(segs[1]);
-    mils += 6000000 * parseInt(segs[0]);
-    return mils;
-}
-function syncVideo(){
-    tick =  Math.floor(vid.currentTime * 1000);
-}
+        result = hrs.toString().padStart(2,'0');
+        result += ":";
+        result += mins.toString().padStart(2,'0') ;
+        result += ":";
+        result += secs.toString().padStart(2,'0'); 
+        result += ","; 
+        result += mill.toString().padStart(3,'0');
+        return result ;//+ ":" + tsToTick(result).toString() + ":" + tick.toString();
+    }
+    function tsToTick(TS){
+        var result = 0;
+        var lines = TS.split(',');
+        var segs = lines[0].split(':');
+        var mils = 0;
+        
+        mils = parseInt(lines[1]);
+        mils += 1000 * parseInt(segs[2]);
+        mils += 60000 * parseInt(segs[1]);
+        mils += 6000000 * parseInt(segs[0]);
+        return mils;
+    }
+    function syncVideo(){
+        tick =  Math.floor(vid.currentTime * 1000);
+    }
+
