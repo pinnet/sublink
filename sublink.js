@@ -1,6 +1,6 @@
 // ---------------------------------------- Sublink ver 0.1.A
-// (C) dannyarnold.com
-// Relesed under the MIT licence www.dannyarnold.com/sublinked/LICENCE
+// (C) dannyarnold.com 2019
+// Released under the MIT licence www.dannyarnold.com/sublinked/LICENCE
 // 
 
 
@@ -82,10 +82,11 @@
 
     document.addEventListener("fullscreenchange", function() {
         if (
-            document.fullscreenElement || /* Standard syntax */
-            document.webkitFullscreenElement || /* Chrome, Safari and Opera syntax */
-            document.mozFullScreenElement ||/* Firefox syntax */
-            document.msFullscreenElement /* IE/Edge syntax */
+            document.fullscreenElement ||                 /* Standard syntax */
+            document.webkitFullscreenElement ||           /* Chrome, Safari and Opera syntax */
+            document.mozFullScreenElement ||              /* Firefox syntax */
+            document.msFullscreenElement                  /* IE/Edge syntax */ 
+                                                         // code from https://www.w3schools.com/jsref/prop_document_fullscreenelement.asp*/
         ){
             document.getElementById("titles").style.width = "88%";
             document.getElementById("myVideo").style.width = "89%";

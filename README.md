@@ -5,7 +5,7 @@ How to use:
 
 Insert a script tag pointing to sublink.js 
 
-    <script type='javascript' src='PATH_TO_\\sublink.js'></script>
+    <script type='javascript' src='PATH_TO_\sublink.js'></script>
 
 Two files required - the subtitles of the video playing in srt format. And a json file of the glossery of hyperlinks with keywords to match.
 
@@ -35,5 +35,14 @@ Design Goals for V0.1
     3 X Basic Config X............................ not complete
     4 Fullscreen ................................. Fullscreen with subtitles working.
     5 scrubbing transport ........................ Working.
+
+TODO: 
+    remove var tick and replace with call to video.currenttime
+    slow down call back - parameterize callback time
+    classify setup to encapsulate global vars 
+
+
+
+
 
 NEW = support me on Patreon - https://www.patreon.com/dannyarnold
