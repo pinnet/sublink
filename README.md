@@ -40,11 +40,7 @@ TODO:
 
     remove var tick and replace with call to video.currenttime
     slow down setInterval callback - parameterize callback time
-    
-    rationalize subtitle font size for auto sizing  
-
-
-
-
+    rationalize subtitle font size for auto sizing 
+    refactor to support jQuery.
 
 NEW = support me on Patreon - https://www.patreon.com/dannyarnold
