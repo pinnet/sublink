@@ -36,7 +36,8 @@ Design Goals for V0.1
     4 Fullscreen ................................. Fullscreen with subtitles working.
     5 scrubbing transport ........................ Working.
 
-TODO: 
+TODO:
+ 
     remove var tick and replace with call to video.currenttime
     slow down call back - parameterize callback time
     classify setup to encapsulate global vars 
