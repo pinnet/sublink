@@ -39,7 +39,7 @@ Design Goals for V0.1
 
 TODO:
 
-    ~~remove var tick and replace with call to video.currenttime~~
+    <del>remove var tick and replace with call to video.currenttime</del>
     ~~slow down setInterval callback - parameterize callback time~~
     rationalize subtitle font size for auto sizing 
     ~~refactor to support jQuery.~~
