@@ -1,0 +1,8 @@
+{ "Settings" : {
+    "subtitles" : "linus.srt",
+    "linkslist" : "list.json",
+    "AutoTransript": false,
+    "OnScreenTitles": true,
+    "ShowDropDown": true,
+    "ShowTimeStamp" : true,
+    "ShowControls" : true }}

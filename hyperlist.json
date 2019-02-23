@@ -1,31 +1,32 @@
 {
-    "Country": "UK",
-    "Search": [
-      "Linus Media Group",
-      "YouTube",
-      "Floatplane",
-      "Jays two cents",
-      "gamers Nexus",
-      "Paul and Kyle",
-      "scrapyard Wars",
-      "fair use",
-      "our forum",
-      "chapter 13",
-      "DMCA"
-      
-    ],
-    "Link": [
-      "https://www.linusmediagroup.com/",
-      "https://www.youtube.com/user/LinusTechTips",
-      "http://www.floatplane.com",
-      "https://www.youtube.com/user/Jayztwocents",
-      "https://www.youtube.com/user/GamersNexus",
-      "https://www.youtube.com/results?search_query=paul+and+kyle",
-      "https://www.youtube.com/watch?v=AQBp5YeLY6E",
-      "https://en.wikipedia.org/wiki/Fair_use",
-      "https://linustechtips.com/main/",
-      "https://en.wikipedia.org/wiki/Directive_on_Copyright_in_the_Digital_Single_Market",
-      "https://en.wikipedia.org/wiki/DMCA"
-      ],
-    "Version": "0.0a"
-  }
+    "EN" : { 
+        "Search": [
+          "Linus Media Group",
+          "YouTube",
+          "Floatplane",
+          "Jays two cents",
+          "gamers Nexus",
+          "Paul and Kyle",
+          "scrapyard Wars",
+          "fair use",
+          "our forum",
+          "chapter 13",
+          "DMCA"
+          
+        ],
+        "Link": [
+          "https://www.linusmediagroup.com/",
+          "https://www.youtube.com/user/LinusTechTips",
+          "http://www.floatplane.com",
+          "https://www.youtube.com/user/Jayztwocents",
+          "https://www.youtube.com/user/GamersNexus",
+          "https://www.youtube.com/results?search_query=paul+and+kyle",
+          "https://www.youtube.com/watch?v=AQBp5YeLY6E",
+          "https://en.wikipedia.org/wiki/Fair_use",
+          "https://linustechtips.com/main/",
+          "https://en.wikipedia.org/wiki/Directive_on_Copyright_in_the_Digital_Single_Market",
+          "https://en.wikipedia.org/wiki/DMCA"
+          ]
+        },
+    "Version": "0.02a"
+}

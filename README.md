@@ -1,5 +1,6 @@
 # sublink
-Subtitle Link java-script subtitles with a glossary of hyperlinks for content providers
+
+Subtitle Link java-script subtitles for your videos with a glossary of hyperlinks for content providers
 
 How to use:
 
@@ -42,5 +43,9 @@ TODO:
     slow down setInterval callback - parameterize callback time
     rationalize subtitle font size for auto sizing 
     refactor to support jQuery.
+    change hyperlink.json to make country the root node of the tree
+    a link history tab for reference fixed number of tabs for tab n-n
+    setup panel - local language choice
+    auto-localization
 
 NEW = support me on Patreon - https://www.patreon.com/dannyarnold
