@@ -39,10 +39,10 @@ Design Goals for V0.1
 
 TODO:
 
-    remove var tick and replace with call to video.currenttime
-    slow down setInterval callback - parameterize callback time
+    <strike>remove var tick and replace with call to video.currenttime</strike>
+    <strike>slow down setInterval callback - parameterize callback time</strike>
     rationalize subtitle font size for auto sizing 
-    refactor to support jQuery.
+    <strike>refactor to support jQuery.</strike>
     change hyperlink.json to make country the root node of the tree
     a link history tab for reference fixed number of tabs for tab n-n
     setup panel - local language choice

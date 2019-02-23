@@ -193,13 +193,10 @@
         }
         subs += "</select><input type='checkbox' id='_autotranscript'>Auto";
         transcript.innerHTML = subs;
-       
-        
-        refs = document.getElementById("_reference");
-        refs.innerHTML = "<h2>Reference</h2>" 
+        reference.innerHTML = "<h2>Reference</h2>" 
         
         for (i in linklist.EN.Link){
-            refs.innerHTML += "{" + i.toString() +"}" + "<a href='"+linklist.EN.Link[i]+"'>" +linklist.EN.Link[i] + "</a><BR>";
+            reference.innerHTML += "{" + i.toString() +"}" + "<a href='"+linklist.EN.Link[i]+"'>" +linklist.EN.Link[i] + "</a><BR>";
             }  
         document.querySelector("#_transcript_option").onchange=selected;  
         document.querySelector("#_autotranscript").onchange=checkedEvent;
